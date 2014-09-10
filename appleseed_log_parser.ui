@@ -32,13 +32,17 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QListWidget" name="recent_log_files_listWidget"/>
+         <widget class="QListWidget" name="recent_log_files_listWidget">
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
       <widget class="QTabWidget" name="tabWidget">
        <property name="currentIndex">
-        <number>1</number>
+        <number>0</number>
        </property>
        <property name="documentMode">
         <bool>true</bool>
