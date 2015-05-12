@@ -13,7 +13,7 @@ re_main = re.compile( '(?P<timestamp>[0-9TZ:.-]+)\s+'
                       '\<(?P<thread_id>\d{3})\>\s+'
                       '(?P<vm>\d+)\s+MB\s+'
                       '(?P<msg_cat>\w+)\s+'
-                      '\|(?P<msg_rest>.*)' )
+                      '\|(?P<msg_rest>.*)\n?' )
 
 re_opening_texture_file = re.compile( '\s*opening texture file (?P<texture_path>[\w./\\\\-]+) for reading\.\.\.' )
 re_rendering_progress   = re.compile( '\s*rendering\, (?P<percentage>[\d.]+)\% done' )
@@ -50,16 +50,70 @@ re_opt_frame_settings_crop_window      = re.compile( '\s*crop window\s+\((?P<x_t
 
 datetime_str_format = '%Y-%m-%dT%H:%M:%S.%fZ'
 
+class ASLogLine( object ) :
+
+    __slots__ = ( 'line'           ,  # the whole line string
+                  'number'         ,  # the line number
+                  '_timestamp'     ,
+                  '_raw_timestamp' ,
+                  'thread_id'      ,
+                  'vm'             ,
+                  'msg_cat'        ,
+                  'msg_rest'       ,  # Everything after the pipe
+                  'msg_content'    )  # Details of msg_rest
+
+    def __init__( self, line, number ) :
+
+        assert isinstance( line  , basestring )
+        assert isinstance( number, int        )
+
+        self.line           = line
+        self.number         = number
+        self._timestamp     = None
+        self._raw_timestamp = None
+        self.thread_id      = None
+        self.vm             = None
+        self.msg_cat        = None
+        self.msg_rest       = None
+        self.msg_content    = dict()
+
+        self._parse()
+
+    def _parse( self ) :
+
+        match_grp = re_main.match( self.line )
+        if not match_grp :
+            print "Warning, can't parse line %d : %s" % ( i , line )
+            return
+        self._raw_timestamp = match_grp.group( 'timestamp'  )
+        self.thread_id      = int( match_grp.group( 'thread_id'  ) )
+        self.vm             = int( match_grp.group( 'vm'         ) )
+        self.msg_cat        = match_grp.group( 'msg_cat'    )
+        self.msg_rest       = match_grp.group( 'msg_rest'   )
+
+
+
+    @property
+    def is_empty( self ) :
+        return len( self.line ) == 0
+
+    @property
+    def timestamp( self ) :
+        if self._timestamp is None and self._raw_timestamp is not None :
+            self._timestamp = datetime.datetime.strptime( self._raw_timestamp ,
+                                                          datetime_str_format )
+        return self._timestamp
+
+
 class ASLogParser( object ) :
 
     def __init__( self, log_file ) :
 
-        self._log_file       = log_file
-        self._log_lines      = None
-        self._lines_data     = list()
+        self._log_file   = log_file
+        self._lines_data = list()
 
         # options
-        self._options        = dict()
+        self._options    = dict()
 
         # ranges
         self._ranges                     = dict()
@@ -68,56 +122,29 @@ class ASLogParser( object ) :
         self._ranges[ 'vm_max'         ] = 0
         self._ranges[ 'vm_max_str_len' ] = 0 # for nice output
 
-        self._readlines()
         self._parse()
 
-    def _readlines( self ) :
+    @property
+    def _lines( self ) :
         """Read every lines from the log file."""
         with open( self._log_file, 'r' ) as log_file :
-            self._log_lines = log_file.readlines()
+            yield log_file.readline()
 
     def _parse( self ) :
 
         triggereds = set()
 
-        for i, line in enumerate( self._log_lines ) :
+        for i, line in enumerate( self._lines ) :
 
-            line = line.replace( '\n', '' )
+            line_data = ASLogLine(line, i)
 
-            if not line :
-                print "Warning, line %d is empty." % i
-                continue
-
-            match_grp = re_main.match( line )
-            if not match_grp :
-                print "Warning, can't parse line %d : %s" % ( i , line )
-                continue
-
-            raw_timestamp = match_grp.group( 'timestamp'  )
-            thread_id     = match_grp.group( 'thread_id'  )
-            vm            = match_grp.group( 'vm'         )
-            msg_cat       = match_grp.group( 'msg_cat'    )
-            msg_rest      = match_grp.group( 'msg_rest'   )
-
-            timestamp     = datetime.datetime.strptime( raw_timestamp       ,
-                                                        datetime_str_format )
-
-            vm_str_len = len( vm )
+            vm_str_len = len( str( line_data.vm ) )
             if vm_str_len > self._ranges[ 'vm_max_str_len' ] :
                 self._ranges[ 'vm_max_str_len' ] = vm_str_len
 
-            line_data = dict()
-            line_data[ 'line'        ] = line      # the whole line string
-            line_data[ 'number'      ] = i         # the line number
-            line_data[ 'timestamp'   ] = timestamp
-            line_data[ 'thread_id'   ] = int( thread_id )
-            line_data[ 'vm'          ] = int( vm        )
-            line_data[ 'msg_cat'     ] = msg_cat
-            line_data[ 'msg_rest'    ] = msg_rest  # Everything after the pipe
-            line_data[ 'msg_content' ] = dict()    # Details of msg_rest
-
-            msg_content = line_data[ 'msg_content' ]
-            msg_content[ 'type'     ] = None
+            msg_rest    = line_data.msg_rest
+            msg_content = line_data.msg_content
+            msg_content[ 'type' ] = None
 
             # Loading project file
             match_grp = re_project_file_path.match( msg_rest )
@@ -307,21 +334,19 @@ class ASLogParser( object ) :
 
         for line_data in self._lines_data :
 
-            line_timestamp  = line_data[ 'timestamp' ]
+            line_timestamp  = line_data.timestamp
             line_delta_time = line_timestamp - self._first_datetime
             time_in_sec     = line_delta_time.total_seconds()
 
-            vm = line_data[ 'vm' ]
-
             # Second part of the message
-            msg_content = line_data[ 'msg_content' ]
+            msg_content = line_data.msg_content
 
             if msg_content[ 'type' ] == 'rendering_progress' :
                 progress = msg_content[ 'percentage' ]
 
-            csv_writer.writerow( [ float( time_in_sec ) ,
-                                   float( vm          ) ,
-                                   float( progress    ) ] )
+            csv_writer.writerow( [ float( time_in_sec  ) ,
+                                   float( line_data.vm ) ,
+                                   float( progress     ) ] )
 
         csv_file.close()
 
@@ -401,8 +426,8 @@ class ASLogParser( object ) :
 
     def _path_get( self, msg_cat, type ) :
         """Return the value of the specified key for the specified message type."""
-        return [ x[ 'msg_content' ][ msg_cat ] for x in self._lines_data
-                if x[ 'msg_content' ][ 'type' ] == type ]
+        return [ x.msg_content[ msg_cat ] for x in self._lines_data
+                if x.msg_content[ 'type' ] == type ]
 
     @property
     def lines_data( self ) :
