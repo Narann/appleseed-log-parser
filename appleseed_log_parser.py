@@ -3,7 +3,8 @@ import csv
 import re
 import os.path
 import sys
-from PyQt4 import uic, QtGui, QtCore
+#from PyQt4 import uic, QtGui, QtCore
+from PySide import QtUiTools, QtGui, QtCore
 import functools
 
 ################################################################################
@@ -52,58 +53,143 @@ datetime_str_format = '%Y-%m-%dT%H:%M:%S.%fZ'
 
 class ASLogLine( object ) :
 
-    __slots__ = ( 'line'           ,  # the whole line string
-                  'number'         ,  # the line number
-                  '_timestamp'     ,
-                  '_raw_timestamp' ,
-                  'thread_id'      ,
-                  'vm'             ,
-                  'msg_cat'        ,
-                  'msg_rest'       ,  # Everything after the pipe
-                  'msg_content'    )  # Details of msg_rest
+    __slots__ = ( 'line'                  ,  # the whole line string
+                  'number'                ,  # the line number
+                  '_raw_timestamp'        ,  # timestamp string
+                  '_timestamp'            ,  # cached datetime
+                  'thread_id'             ,
+                  'vm'                    ,
+                  'msg_cat'               ,
+                  'msg_rest'              ,  # Everything after the pipe
+                  'msg_content'           ,
+                  'frame_setting_trigger' )  # Details of msg_rest
 
     def __init__( self, line, number ) :
 
-        assert isinstance( line  , basestring )
-        assert isinstance( number, int        )
+        assert isinstance( line  , basestring ), type( line   )
+        assert isinstance( number, int        ), type( number )
 
         self.line           = line
         self.number         = number
-        self._timestamp     = None
         self._raw_timestamp = None
+        self._timestamp     = None
         self.thread_id      = None
         self.vm             = None
         self.msg_cat        = None
         self.msg_rest       = None
-        self.msg_content    = dict()
+        self.msg_content    = {}
+
+        # option triggers
+        self.frame_setting_trigger = False
 
         self._parse()
 
     def _parse( self ) :
 
+        # first part of the line (always the same pattern)
         match_grp = re_main.match( self.line )
         if not match_grp :
-            print "Warning, can't parse line %d : %s" % ( i , line )
+            print "Warning, can't parse line {0.number} : {0.line}".format( self )
             return
-        self._raw_timestamp = match_grp.group( 'timestamp'  )
+
+        self._raw_timestamp =      match_grp.group( 'timestamp'  )
         self.thread_id      = int( match_grp.group( 'thread_id'  ) )
         self.vm             = int( match_grp.group( 'vm'         ) )
-        self.msg_cat        = match_grp.group( 'msg_cat'    )
-        self.msg_rest       = match_grp.group( 'msg_rest'   )
+        self.msg_cat        =      match_grp.group( 'msg_cat'    )
+        self.msg_rest       =      match_grp.group( 'msg_rest'   )
 
+        self.msg_content[ 'type' ] = None
 
+        # Loading project file
+        match_grp = re_project_file_path.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'              ] = 'loading_project_file'
+            self.msg_content[ 'project_file_path' ] = match_grp.group( 'project_file_path' )
+
+        # Opening texture file
+        match_grp = re_opening_texture_file.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'         ] = 'opening_texture_file'
+            self.msg_content[ 'texture_path' ] = match_grp.group( 'texture_path' )
+
+        # Rendering progress
+        match_grp = re_rendering_progress.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'       ] = 'rendering_progress'
+            self.msg_content[ 'percentage' ] = float( match_grp.group( 'percentage' ) )
+
+        # Write final image
+        match_grp = re_wrote_image_file.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'         ] = 'wrote_image_file'
+            self.msg_content[ 'image_path'   ] = match_grp.group( 'image_path' )
+
+            raw_milliseconds = match_grp.group( 'milliseconds' )
+            raw_milliseconds = raw_milliseconds.replace( ',', '' )
+            self.msg_content[ 'milliseconds' ] = int( raw_milliseconds )
+
+        # Mesh file loaded
+        match_grp = re_loaded_mesh_file.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'         ] = 'loaded_mesh_file'
+            self.msg_content[ 'mesh_path'    ] = match_grp.group( 'mesh_path' )
+
+            raw_objects = match_grp.group( 'objects' )
+            raw_objects = raw_objects.replace( ',', '' )
+            self.msg_content[ 'objects'      ] = int( raw_objects )
+
+            raw_vertices = match_grp.group( 'vertices' )
+            raw_vertices = raw_vertices.replace( ',', '' )
+            self.msg_content[ 'vertices'     ] = int( raw_vertices )
+
+            raw_triangles = match_grp.group( 'triangles' )
+            raw_triangles = raw_triangles.replace( ',', '' )
+            self.msg_content[ 'triangles'    ] = int( raw_triangles )
+
+            raw_milliseconds = match_grp.group( 'milliseconds' )
+            raw_milliseconds = raw_milliseconds.replace( ',', '' )
+            self.msg_content[ 'milliseconds' ] = int( raw_milliseconds )
+
+        # Scene bounding box
+        match_grp = re_scene_bounding_box.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'         ] = 'scene_bounding_box'
+            self.msg_content[ 'bounding_box' ] = ( ( float( match_grp.group( 'pt1_x' ) ) ,
+                                                     float( match_grp.group( 'pt1_y' ) ) ,
+                                                     float( match_grp.group( 'pt1_z' ) ) ) ,
+                                                   ( float( match_grp.group( 'pt2_x' ) ) ,
+                                                     float( match_grp.group( 'pt2_y' ) ) ,
+                                                     float( match_grp.group( 'pt2_z' ) ) ) )
+
+        # Scene diameter
+        match_grp = re_scene_diameter.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'     ] = 'scene_diameter'
+            self.msg_content[ 'diameter' ] = match_grp.group( 'diameter' )
+
+        match_grp = re_while_loading_mesh_object.match( self.msg_rest )
+        if match_grp :
+            self.msg_content[ 'type'    ] = 'while_loading_mesh_object'
+            self.msg_content[ 'object'  ] = match_grp.group( 'object'  )
+            self.msg_content[ 'problem' ] = match_grp.group( 'problem' )
+
+        # triggers
+        match_grp = re_opt_frame_settings_trigger.match( self.msg_rest )
+        if match_grp :
+            self.frame_setting_trigger = True
 
     @property
     def is_empty( self ) :
-        return len( self.line ) == 0
+        """Return if the line is empty"""
+        return len( self.line ) == 0 or self.line == '\n'
 
     @property
     def timestamp( self ) :
+        """Return a `datetime` object corresponding the given line"""
         if self._timestamp is None and self._raw_timestamp is not None :
             self._timestamp = datetime.datetime.strptime( self._raw_timestamp ,
                                                           datetime_str_format )
         return self._timestamp
-
 
 class ASLogParser( object ) :
 
@@ -124,11 +210,18 @@ class ASLogParser( object ) :
 
         self._parse()
 
+    '''def __len__( self ) :
+        return len( self._lines_data )
+
+    def __getitem__( self, index ) :
+        return self._lines_data[index]'''
+
     @property
     def _lines( self ) :
         """Read every lines from the log file."""
         with open( self._log_file, 'r' ) as log_file :
-            yield log_file.readline()
+            for line in log_file :
+                yield line
 
     def _parse( self ) :
 
@@ -136,88 +229,12 @@ class ASLogParser( object ) :
 
         for i, line in enumerate( self._lines ) :
 
-            line_data = ASLogLine(line, i)
+            line_data = ASLogLine( line, i )
 
-            vm_str_len = len( str( line_data.vm ) )
-            if vm_str_len > self._ranges[ 'vm_max_str_len' ] :
-                self._ranges[ 'vm_max_str_len' ] = vm_str_len
+            if line_data.is_empty :
+                continue
 
             msg_rest    = line_data.msg_rest
-            msg_content = line_data.msg_content
-            msg_content[ 'type' ] = None
-
-            # Loading project file
-            match_grp = re_project_file_path.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'              ] = 'loading_project_file'
-                msg_content[ 'project_file_path' ] = match_grp.group( 'project_file_path' )
-
-            # Opening texture file
-            match_grp = re_opening_texture_file.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'         ] = 'opening_texture_file'
-                msg_content[ 'texture_path' ] = match_grp.group( 'texture_path' )
-
-            # Rendering progress
-            match_grp = re_rendering_progress.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'       ] = 'rendering_progress'
-                msg_content[ 'percentage' ] = float( match_grp.group( 'percentage' ) )
-
-            # Write final image
-            match_grp = re_wrote_image_file.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'         ] = 'wrote_image_file'
-                msg_content[ 'image_path'   ] = match_grp.group( 'image_path' )
-
-                raw_milliseconds = match_grp.group( 'milliseconds' )
-                raw_milliseconds = raw_milliseconds.replace( ',', '' )
-                msg_content[ 'milliseconds' ] = int( raw_milliseconds )
-
-            # Mesh file loaded
-            match_grp = re_loaded_mesh_file.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'         ] = 'loaded_mesh_file'
-                msg_content[ 'mesh_path'    ] = match_grp.group( 'mesh_path' )
-
-                raw_objects = match_grp.group( 'objects' )
-                raw_objects = raw_objects.replace( ',', '' )
-                msg_content[ 'objects'      ] = int( raw_objects )
-
-                raw_vertices = match_grp.group( 'vertices' )
-                raw_vertices = raw_vertices.replace( ',', '' )
-                msg_content[ 'vertices'     ] = int( raw_vertices )
-
-                raw_triangles = match_grp.group( 'triangles' )
-                raw_triangles = raw_triangles.replace( ',', '' )
-                msg_content[ 'triangles'    ] = int( raw_triangles )
-
-                raw_milliseconds = match_grp.group( 'milliseconds' )
-                raw_milliseconds = raw_milliseconds.replace( ',', '' )
-                msg_content[ 'milliseconds' ] = int( raw_milliseconds )
-
-            # Scene bounding box
-            match_grp = re_scene_bounding_box.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'         ] = 'scene_bounding_box'
-                msg_content[ 'bounding_box' ] = ( ( float( match_grp.group( 'pt1_x' ) ) ,
-                                                    float( match_grp.group( 'pt1_y' ) ) ,
-                                                    float( match_grp.group( 'pt1_z' ) ) ) ,
-                                                  ( float( match_grp.group( 'pt2_x' ) ) ,
-                                                    float( match_grp.group( 'pt2_y' ) ) ,
-                                                    float( match_grp.group( 'pt2_z' ) ) ) )
-
-            # Scene diameter
-            match_grp = re_scene_diameter.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'     ] = 'scene_diameter'
-                msg_content[ 'diameter' ] = match_grp.group( 'diameter' )
-
-            match_grp = re_while_loading_mesh_object.match( msg_rest )
-            if match_grp :
-                msg_content[ 'type'    ] = 'while_loading_mesh_object'
-                msg_content[ 'object'  ] = match_grp.group( 'object'  )
-                msg_content[ 'problem' ] = match_grp.group( 'problem' )
 
             self._lines_data.append( line_data )
 
@@ -299,24 +316,27 @@ class ASLogParser( object ) :
                                                             y_top_left     ,
                                                             x_bottom_right ,
                                                             y_bottom_right )
-                    triggereds.remove( 'frame_settings' )
+                    triggereds.remove( 'frame_settings' ) # close the option
 
-            match_grp = re_opt_frame_settings_trigger.match( msg_rest )
-            if match_grp :
+            if line_data.frame_setting_trigger :
                 triggereds.add( 'frame_settings' )
 
             ################################################################
             # Update graph ranges if needed
             ################################################################
+            vm_str_len = len( str( line_data.vm ) )
+            if vm_str_len > self._ranges[ 'vm_max_str_len' ] :
+                self._ranges[ 'vm_max_str_len' ] = vm_str_len
+
             if self._ranges[ 'first_datetime' ] is None :
-                self._ranges[ 'first_datetime' ] = timestamp
+                self._ranges[ 'first_datetime' ] = line_data.timestamp
 
-            if self._ranges[ 'last_datetime' ] is None \
-               or self._ranges[ 'last_datetime' ] < timestamp :
-                self._ranges[ 'last_datetime' ] = timestamp
+            if self._ranges[ 'last_datetime' ] is None               or \
+               self._ranges[ 'last_datetime' ] < line_data.timestamp    :
+                self._ranges[ 'last_datetime' ] = line_data.timestamp
 
-            if vm > self._ranges[ 'vm_max' ] :
-                self._ranges[ 'vm_max' ] = vm
+            if line_data.vm > self._ranges[ 'vm_max' ] :
+                self._ranges[ 'vm_max' ] = line_data.vm
 
     def export_to_csv( self, path ) :
         """Export the current parsed log to csv at the given path."""
@@ -332,21 +352,18 @@ class ASLogParser( object ) :
 
         progress = 0.0
 
-        for line_data in self._lines_data :
+        for line in self._lines_data :
 
-            line_timestamp  = line_data.timestamp
-            line_delta_time = line_timestamp - self._first_datetime
+            line_delta_time = line.timestamp - self._ranges[ 'first_datetime' ]
             time_in_sec     = line_delta_time.total_seconds()
 
             # Second part of the message
-            msg_content = line_data.msg_content
+            if line.msg_content[ 'type' ] == 'rendering_progress' :
+                progress = line.msg_content[ 'percentage' ]
 
-            if msg_content[ 'type' ] == 'rendering_progress' :
-                progress = msg_content[ 'percentage' ]
-
-            csv_writer.writerow( [ float( time_in_sec  ) ,
-                                   float( line_data.vm ) ,
-                                   float( progress     ) ] )
+            csv_writer.writerow( [ float( time_in_sec ) ,
+                                   float( line.vm     ) ,
+                                   float( progress    ) ] )
 
         csv_file.close()
 
@@ -364,8 +381,8 @@ class ASLogParser( object ) :
         self.export_to_csv( csv_path )
 
         # Add few margin for cosmetic graph
-        vm_for_graph = self._vm_max# + self._vm_max*0.05+1
-        last_second = ( self._last_datetime - self._first_datetime ).total_seconds()
+        vm_for_graph = self._ranges[ 'vm_max' ]
+        last_second = ( self._ranges[ 'last_datetime' ] - self._ranges[ 'first_datetime' ] ).total_seconds()
         margin_second = last_second*0.05+1
         last_second += margin_second
 
@@ -411,67 +428,28 @@ class ASLogParser( object ) :
 
     @property
     def scene_diameter( self ) :
-        """Return the scene diameter."""
+        """Return an iterator over scene diameters"""
         return self._path_get( 'diameter', 'scene_diameter' )
 
     @property
     def loaded_project_files( self ) :
-        """Return a list of loaded project files found in the log."""
+        """Return an iterator over loaded project files found in the log."""
         return self._path_get( 'project_file_path', 'loading_project_file' )
 
     @property
     def opened_texture_files( self ) :
-        """Return a list of opened texture files found in the log."""
+        """Return an iterator over opened texture files found in the log."""
         return self._path_get( 'texture_path', 'opening_texture_file' )
 
     def _path_get( self, msg_cat, type ) :
-        """Return the value of the specified key for the specified message type."""
-        return [ x.msg_content[ msg_cat ] for x in self._lines_data
-                if x.msg_content[ 'type' ] == type ]
+        """Return an iterator over values of the specified category for the specified message type."""
+        return ( l.msg_content[ msg_cat ]
+                    for l in self._lines_data
+                        if l.msg_content[ 'type' ] == type )
 
     @property
-    def lines_data( self ) :
+    def lines( self ) :
         return self._lines_data
-
-
-    '''def lines( self                          ,
-               levels      = [ 'info'      ,
-                               'warning'   ,
-                               'error'     ,
-                               'fatal'     ] ,
-               prefix      = [ 'timestamp' ,
-                               'thread_id' ,
-                               'vm'        ,
-                               'msg_cat'   ] ,
-               text_filter = None            ) :
-        """Return the lines of the log depending on the given filters."""
-        lines = list()
-        for line_data in self._lines_data :
-
-            if line_data[ 'msg_cat' ] not in levels :
-                continue
-
-            line = str()
-            if 'timestamp' in prefix :
-                line  = '%s '    % line_data[ 'timestamp' ].strftime( datetime_str_format )
-            if 'thread_id' in prefix :
-                line += '<%s> '  % str( line_data[ 'thread_id' ] ).zfill( 3 )
-            if 'vm' in prefix :
-                vm_str = str( line_data[ 'vm' ] )
-                line += ' ' * ( self._vm_max_str_len - len( vm_str ) )
-                line += '%s MB ' % vm_str
-            if 'msg_cat' in prefix :
-                line += '%s'     % line_data[ 'msg_cat' ]
-                missing_spaces = 8 - len( line_data[ 'msg_cat' ] )
-                line += ' ' * missing_spaces
-            if prefix :
-                line += '|'
-
-            line += line_data[ 'msg_rest' ]
-
-            lines.append( line )
-
-        return lines'''
 
     @property
     def render_options( self ) :
@@ -483,27 +461,31 @@ class ASLogParser( object ) :
         """Return the differents min/max values (dict) found in the log."""
         return self._ranges
 
+import appleseed_log_parser_ui
 
-class ASLogParserUI( QtGui.QMainWindow ) :
-    def __init__( self ) :
-        QtGui.QMainWindow.__init__( self )
+#class ASLogParserUI( QtGui.QMainWindow ) :
+class ASLogParserUI( QtGui.QMainWindow, appleseed_log_parser_ui.Ui_MainWindow ) :
+    def __init__( self     ,
+                  *args    ,
+                  **kwargs ) :
+        super( ASLogParserUI, self ).__init__( *args, **kwargs )
 
         # recent_log_files_listWidget.as_log_file_path
         # filtered_log_listWidget.as_line_data
 
         # Icons
-        self._show_icons      = True
-        script_dir            = os.path.dirname( __file__ )
-        icon_dir              = os.path.join( script_dir, 'icons' )
-        texture_icon_path     = os.path.join( icon_dir, 'appleseed-texture-black-icon.svg'    )
-        mesh_icon_path        = os.path.join( icon_dir, 'appleseed-mesh-black-icon.svg'       )
-        bbox_icon_path        = os.path.join( icon_dir, 'appleseed-scene-bounding-box-icon'   )
-        diameter_icon_path    = os.path.join( icon_dir, 'appleseed-scene-diameter-icon'       )
-        progress_icon_path    = os.path.join( icon_dir, 'appleseed-progress-black-icon.svg'   )
-        resolution_icon_path  = os.path.join( icon_dir, 'appleseed-resolution-black-icon.svg' )
-        tile_icon_path        = os.path.join( icon_dir, 'appleseed-tile-black-icon.svg'       )
-        empty_icon_path       = os.path.join( icon_dir, 'appleseed-empty-icon.svg'            )
-        self.icons            = dict()
+        self._show_icons     = True
+        script_dir           = os.path.dirname( __file__ )
+        icon_dir             = os.path.join( script_dir, 'icons' )
+        texture_icon_path    = os.path.join( icon_dir, 'appleseed-texture-black-icon.svg'    )
+        mesh_icon_path       = os.path.join( icon_dir, 'appleseed-mesh-black-icon.svg'       )
+        bbox_icon_path       = os.path.join( icon_dir, 'appleseed-scene-bounding-box-icon'   )
+        diameter_icon_path   = os.path.join( icon_dir, 'appleseed-scene-diameter-icon'       )
+        progress_icon_path   = os.path.join( icon_dir, 'appleseed-progress-black-icon.svg'   )
+        resolution_icon_path = os.path.join( icon_dir, 'appleseed-resolution-black-icon.svg' )
+        tile_icon_path       = os.path.join( icon_dir, 'appleseed-tile-black-icon.svg'       )
+        empty_icon_path      = os.path.join( icon_dir, 'appleseed-empty-icon.svg'            )
+        self.icons           = dict()
         self.icons[ 'progress'   ] = QtGui.QIcon( progress_icon_path   )
         self.icons[ 'texture'    ] = QtGui.QIcon( texture_icon_path    )
         self.icons[ 'mesh'       ] = QtGui.QIcon( mesh_icon_path       )
@@ -524,7 +506,8 @@ class ASLogParserUI( QtGui.QMainWindow ) :
         self._log_levels       = set( [ 'info', 'warning', 'error', 'fatal' ] )
         self._log_prefixes     = set( [ 'timestamp', 'thread_id', 'vm', 'msg_cat' ] )
 
-        uic.loadUi( 'appleseed_log_parser.ui', self )
+        #uic.loadUi( 'appleseed_log_parser.ui', self )
+        self.setupUi(self)
 
         self.recent_log_files_listWidget.clicked.connect( self.cb_recent_log_files_changed )
         self.recent_log_files_listWidget.customContextMenuRequested.connect( self.cb_recent_log_view_menu )
@@ -627,10 +610,10 @@ class ASLogParserUI( QtGui.QMainWindow ) :
 
         #lines = current_log_data.lines( levels , prefixes )#,
         '''text_filter = None            )'''
-        for line_data in current_log_data.lines_data :
+        for line_data in current_log_data.lines :
 
             # Skip unwanted levels
-            if line_data[ 'msg_cat' ] not in self._log_levels :
+            if line_data.msg_cat not in self._log_levels :
                 continue
 
             ####################################################################
@@ -638,27 +621,27 @@ class ASLogParserUI( QtGui.QMainWindow ) :
             ####################################################################
             line = str()
             if 'timestamp' in self._log_prefixes :
-                line  = '%s '    % line_data[ 'timestamp' ].strftime( datetime_str_format )
+                line  = '%s '    % line_data.timestamp.strftime( datetime_str_format )
 
             if 'thread_id' in self._log_prefixes :
-                line += '<%s> '  % str( line_data[ 'thread_id' ] ).zfill( 3 )
+                line += '<%s> '  % str( line_data.thread_id ).zfill( 3 )
 
             if 'vm' in self._log_prefixes :
-                vm_str = str( line_data[ 'vm' ] )
+                vm_str = str( line_data.vm )
                 line += ' ' * ( vm_max_str_len - len( vm_str ) )
                 line += '%s MB ' % vm_str
 
             if 'msg_cat' in self._log_prefixes :
-                line += '%s'     % line_data[ 'msg_cat' ]
-                missing_spaces = 8 - len( line_data[ 'msg_cat' ] )
+                line += '%s'     % line_data.msg_cat
+                missing_spaces = 8 - len( line_data.msg_cat )
                 line += ' ' * missing_spaces
 
             if self._log_prefixes :
                 line += '|'
-                line += line_data[ 'msg_rest' ]
+                line += line_data.msg_rest
             else :
                 # remove the first char (a space)
-                line += line_data[ 'msg_rest' ][1:]
+                line += line_data.msg_rest[1:]
 
             current_item = QtGui.QListWidgetItem( line )
             current_item.as_line_data = line_data
@@ -668,7 +651,7 @@ class ASLogParserUI( QtGui.QMainWindow ) :
             ####################################################################
             if self._show_icons :
                 icon = None
-                line_type = line_data[ 'msg_content' ][ 'type' ]
+                line_type = line_data.msg_content[ 'type' ]
                 if line_type in [ 'loaded_mesh_file', 'while_loading_mesh_object' ] :
                     icon = self.icons[ 'mesh'     ]
                 elif line_type == 'scene_bounding_box'   :
@@ -837,11 +820,11 @@ class ASLogParserUI( QtGui.QMainWindow ) :
             if self._log_levels != set( [ 'info', 'warning', 'error', 'fatal' ] ) or \
                self._log_prefixes != set( [ 'timestamp', 'thread_id', 'vm', 'msg_cat' ] ) :
                 act = QtGui.QAction( self.icons[ 'copy' ], 'Copy whole line' , menu )
-                act.triggered.connect( functools.partial( self.cb_copy, line_data[ 'line' ] ) )
+                act.triggered.connect( functools.partial( self.cb_copy, line_data.line ) )
                 menu.addAction( act )
 
-            if line_data[ 'msg_content' ][ 'type' ] == 'loading_project_file' :
-                project_file_path = line_data[ 'msg_content' ][ 'project_file_path' ]
+            if line_data.msg_content[ 'type' ] == 'loading_project_file' :
+                project_file_path = line_data.msg_content[ 'project_file_path' ]
                 label = 'Copy project file path: %s' % short_label( project_file_path )
                 act = QtGui.QAction( self.icons[ 'copy' ] ,
                                      label                ,
@@ -850,8 +833,8 @@ class ASLogParserUI( QtGui.QMainWindow ) :
                                                           project_file_path ) )
                 menu.addAction( act )
 
-            elif line_data[ 'msg_content' ][ 'type' ] == 'opening_texture_file' :
-                texture_path = line_data[ 'msg_content' ][ 'texture_path' ]
+            elif line_data.msg_content[ 'type' ] == 'opening_texture_file' :
+                texture_path = line_data.msg_content[ 'texture_path' ]
                 label = 'Copy texture file path: %s' % short_label( texture_path )
                 act = QtGui.QAction( self.icons[ 'copy' ] ,
                                      label                ,
@@ -860,8 +843,8 @@ class ASLogParserUI( QtGui.QMainWindow ) :
                                                           texture_path ) )
                 menu.addAction( act )
 
-            elif line_data[ 'msg_content' ][ 'type' ] == 'wrote_image_file' :
-                image_path = line_data[ 'msg_content' ][ 'image_path' ]
+            elif line_data.msg_content[ 'type' ] == 'wrote_image_file' :
+                image_path = line_data.msg_content[ 'image_path' ]
                 label = 'Copy image file path: %s' % short_label( image_path )
                 act = QtGui.QAction( self.icons[ 'copy' ] ,
                                      label                ,
@@ -870,8 +853,8 @@ class ASLogParserUI( QtGui.QMainWindow ) :
                                                           image_path   ) )
                 menu.addAction( act )
 
-            elif line_data[ 'msg_content' ][ 'type' ] == 'loaded_mesh_file' :
-                mesh_path = line_data[ 'msg_content' ][ 'mesh_path' ]
+            elif line_data.msg_content[ 'type' ] == 'loaded_mesh_file' :
+                mesh_path = line_data.msg_content[ 'mesh_path' ]
                 label = 'Copy image file path: %s' % short_label( mesh_path )
                 act = QtGui.QAction( self.icons[ 'copy' ] ,
                                      label                ,
@@ -899,7 +882,7 @@ class ASLogParserUI( QtGui.QMainWindow ) :
                 raw_str = str()
                 for selected_item in selected_items :
                     line_data = selected_item.as_line_data
-                    raw_str += '%s\n' % line_data[ 'line' ]
+                    raw_str += '%s\n' % line_data.line
 
                 act = QtGui.QAction( self.icons[ 'copy' ], 'Copy whole lines' , menu )
                 act.triggered.connect( functools.partial( self.cb_copy, raw_str ) )
@@ -984,10 +967,17 @@ class ASLogParserUI( QtGui.QMainWindow ) :
 
 def main() :
 
-    #log_parser = ASLogParser( "/home/narann/Bureau/appleseed2.log" )
-    #log_parser.export_to_gnuplot( '/home/narann/Bureau/appleseed2' )
-    #print log_parser.loaded_mesh_files
-    #print log_parser.frame_settings()
+    import sys
+    sys.path.append('/home/dfevrier/Perso/appleseed-log-parser')
+
+    import appleseed_log_parser
+    reload(appleseed_log_parser)
+
+    log_parser = appleseed_log_parser.ASLogParser( "/home/dfevrier/Perso/appleseed-log-parser/appleseed2.log" )
+    print ''.join([str(l.line) for l in log_parser.lines])
+    print list(log_parser.opened_texture_files)
+    print log_parser.render_options
+    log_parser.export_to_gnuplot( '/home/dfevrier/Perso/appleseed-log-parser/appleseed2' )
 
     # TODO: add recent files, drag n drop, left right click copy, btd sur filter pour les dernier filter plus preset.
     # TODO: Add mesh icon. double click to copy

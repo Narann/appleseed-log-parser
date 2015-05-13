@@ -1,0 +1,1279 @@
+2014-02-22T15:44:52.991536Z <001>    11 MB info    | loading project file ./13_00_01.0250.appleseed.jonathans-mbp-2_lan...
+2014-02-22T15:44:53.011705Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape2_1_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.011854Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape1_2_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.012401Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_polySurfaceShape16_3_250.obj (1 object, 36 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.013106Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape5_4_250.obj (1 object, 60 vertices, 100 triangles) in 1 ms.
+2014-02-22T15:44:53.013426Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape4_5_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.013557Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape3_6_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.014000Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_wire_Shape1_7_250.obj (1 object, 40 vertices, 70 triangles) in 0 ms.
+2014-02-22T15:44:53.014747Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_headShape_8_250.obj (1 object, 133 vertices, 240 triangles) in 1 ms.
+2014-02-22T15:44:53.015561Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape6_9_250.obj (1 object, 96 vertices, 172 triangles) in 1 ms.
+2014-02-22T15:44:53.016063Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_wire_Shape2_10_250.obj (1 object, 70 vertices, 130 triangles) in 0 ms.
+2014-02-22T15:44:53.016461Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_plugShape_11_6.obj (1 object, 219 vertices, 406 triangles) in 0 ms.
+2014-02-22T15:44:53.016633Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_baseShape_12_6.obj (1 object, 34 vertices, 64 triangles) in 0 ms.
+2014-02-22T15:44:53.016777Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_pCylinderShape18_13_6.obj (1 object, 20 vertices, 30 triangles) in 0 ms.
+2014-02-22T15:44:53.017439Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_front_wheelShape_16_6.obj (1 object, 476 vertices, 660 triangles) in 1 ms.
+2014-02-22T15:44:53.017895Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_forksShape_15_6.obj (1 object, 277 vertices, 514 triangles) in 0 ms.
+2014-02-22T15:44:53.018091Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_chainShape_17_6.obj (1 object, 78 vertices, 144 triangles) in 0 ms.
+2014-02-22T15:44:53.018628Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_back_wheelShape_18_6.obj (1 object, 428 vertices, 564 triangles) in 0 ms.
+2014-02-22T15:44:53.018969Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_left_pedalShape_20_6.obj (1 object, 28 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.019524Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_right_pedalShape_21_6.obj (1 object, 28 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.019718Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_pedalsShape_19_6.obj (1 object, 90 vertices, 160 triangles) in 0 ms.
+2014-02-22T15:44:53.020273Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_bodyShape_14_6.obj (1 object, 398 vertices, 724 triangles) in 0 ms.
+2014-02-22T15:44:53.020521Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape1_22_6.obj (1 object, 108 vertices, 212 triangles) in 0 ms.
+2014-02-22T15:44:53.020701Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape3_23_6.obj (1 object, 60 vertices, 116 triangles) in 0 ms.
+2014-02-22T15:44:53.020955Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape4_24_6.obj (1 object, 90 vertices, 176 triangles) in 0 ms.
+2014-02-22T15:44:53.021204Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape5_25_6.obj (1 object, 124 vertices, 244 triangles) in 0 ms.
+2014-02-22T15:44:53.021453Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape6_26_6.obj (1 object, 95 vertices, 186 triangles) in 0 ms.
+2014-02-22T15:44:53.021706Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape10_27_6.obj (1 object, 124 vertices, 244 triangles) in 0 ms.
+2014-02-22T15:44:53.021948Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape11_28_6.obj (1 object, 108 vertices, 212 triangles) in 0 ms.
+2014-02-22T15:44:53.022122Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape12_29_6.obj (1 object, 60 vertices, 116 triangles) in 0 ms.
+2014-02-22T15:44:53.022355Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape13_30_6.obj (1 object, 95 vertices, 186 triangles) in 0 ms.
+2014-02-22T15:44:53.023197Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_polySurfaceShape11_31_6.obj (1 object, 604 vertices, 1,188 triangles) in 1 ms.
+2014-02-22T15:44:53.023497Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_polySurfaceShape23_32_6.obj (1 object, 164 vertices, 306 triangles) in 0 ms.
+2014-02-22T15:44:53.023661Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_box_table1_geo_box_tableShape_33_6.obj (1 object, 47 vertices, 88 triangles) in 0 ms.
+2014-02-22T15:44:53.026353Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape1_34_6.obj (1 object, 2,099 vertices, 1,842 triangles) in 3 ms.
+2014-02-22T15:44:53.026547Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape2_35_6.obj (1 object, 71 vertices, 130 triangles) in 0 ms.
+2014-02-22T15:44:53.027113Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape3_36_6.obj (1 object, 501 vertices, 589 triangles) in 1 ms.
+2014-02-22T15:44:53.027300Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cerial_box_geo_cerial_box_bagShape_38_6.obj (1 object, 85 vertices, 152 triangles) in 0 ms.
+2014-02-22T15:44:53.027521Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cerial_box_geo_cerial_boxShape_37_6.obj (1 object, 110 vertices, 193 triangles) in 0 ms.
+2014-02-22T15:44:53.027687Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_chopping_board_geo_chopping_boardShape_39_6.obj (1 object, 47 vertices, 82 triangles) in 0 ms.
+2014-02-22T15:44:53.027870Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can_geo_coke_canShape_40_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028056Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can1_geo_coke_canShape_41_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028237Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can2_geo_coke_canShape_42_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028418Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can3_geo_coke_canShape_43_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028608Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can4_geo_coke_canShape_44_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028788Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can5_geo_coke_canShape_45_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T15:44:53.028894Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cutting_mat_geo_cutting_matShape_46_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.029151Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dead_plant_geo_dead_plantShape_47_6.obj (1 object, 168 vertices, 226 triangles) in 0 ms.
+2014-02-22T15:44:53.029371Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_bowl_0Shape1_48_6.obj (1 object, 112 vertices, 220 triangles) in 0 ms.
+2014-02-22T15:44:53.029574Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_forkShape_49_6.obj (1 object, 96 vertices, 188 triangles) in 0 ms.
+2014-02-22T15:44:53.029710Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_knifeShape_50_6.obj (1 object, 33 vertices, 62 triangles) in 0 ms.
+2014-02-22T15:44:53.029955Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_plate_0Shape1_51_6.obj (1 object, 82 vertices, 160 triangles) in 0 ms.
+2014-02-22T15:44:53.030211Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_saucer_0Shape1_52_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.030582Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spaghetti_plateShape_53_6.obj (1 object, 260 vertices, 432 triangles) in 0 ms.
+2014-02-22T15:44:53.030835Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spatula_endShape_55_6.obj (1 object, 104 vertices, 228 triangles) in 0 ms.
+2014-02-22T15:44:53.030980Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spatula_handleShape_54_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.031137Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_table_spoonShape_56_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.031319Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_table_wooden_spoonShape_57_6.obj (1 object, 66 vertices, 128 triangles) in 0 ms.
+2014-02-22T15:44:53.031472Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_tea_spoonShape_58_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.031976Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishrack1_geo_dishrackShape_59_6.obj (1 object, 432 vertices, 664 triangles) in 0 ms.
+2014-02-22T15:44:53.032129Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_door_knobsShape_61_6.obj (1 object, 50 vertices, 84 triangles) in 0 ms.
+2014-02-22T15:44:53.032300Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_outputCloth1_62_6.obj (1 object, 82 vertices, 130 triangles) in 0 ms.
+2014-02-22T15:44:53.032953Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_outputCloth2_63_6.obj (1 object, 550 vertices, 1,020 triangles) in 1 ms.
+2014-02-22T15:44:53.033197Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_door_hangerShape_64_6.obj (1 object, 140 vertices, 252 triangles) in 0 ms.
+2014-02-22T15:44:53.033302Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_doorShape_60_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.033433Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape1_66_6.obj (1 object, 26 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.033571Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape2_67_6.obj (1 object, 27 vertices, 50 triangles) in 0 ms.
+2014-02-22T15:44:53.033703Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape_68_6.obj (1 object, 30 vertices, 56 triangles) in 0 ms.
+2014-02-22T15:44:53.034022Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_duvetShape_69_6.obj (1 object, 242 vertices, 480 triangles) in 0 ms.
+2014-02-22T15:44:53.034312Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_matressShape_70_6.obj (1 object, 184 vertices, 364 triangles) in 0 ms.
+2014-02-22T15:44:53.034477Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_frameShape_65_6.obj (1 object, 68 vertices, 96 triangles) in 0 ms.
+2014-02-22T15:44:53.035006Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_pPlaneShape1_71_250.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.035427Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape1_72_6.obj (1 object, 56 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.035893Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape2_73_6.obj (1 object, 84 vertices, 148 triangles) in 0 ms.
+2014-02-22T15:44:53.036340Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape3_74_6.obj (1 object, 80 vertices, 136 triangles) in 0 ms.
+2014-02-22T15:44:53.037022Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fire_blanket_geo_fire_blanketShape_75_250.obj (1 object, 44 vertices, 60 triangles) in 1 ms.
+2014-02-22T15:44:53.037834Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fridge_geo_fridge_doorShape_77_250.obj (1 object, 44 vertices, 72 triangles) in 1 ms.
+2014-02-22T15:44:53.038367Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fridge_geo_fridgeShape_76_6.obj (1 object, 90 vertices, 164 triangles) in 0 ms.
+2014-02-22T15:44:53.039045Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_antennaShape_78_6.obj (1 object, 314 vertices, 450 triangles) in 1 ms.
+2014-02-22T15:44:53.039310Z <001>    14 MB warning | while loading mesh object "_Home_set_01_geo_back_roof_Home_set_01_geo_back_roofShape.0": 16 polygonal faces (out of 69) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T15:44:53.039348Z <001>    14 MB warning | while loading mesh object "_Home_set_01_geo_back_roof_Home_set_01_geo_back_roofShape.0": 64 normal vectors (out of 224) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T15:44:53.039383Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_back_roofShape_79_6.obj (1 object, 80 vertices, 138 triangles) in 0 ms.
+2014-02-22T15:44:53.039633Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_cooker_frontShape_80_6.obj (1 object, 78 vertices, 130 triangles) in 0 ms.
+2014-02-22T15:44:53.039946Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_cooker_topShape_81_6.obj (1 object, 132 vertices, 188 triangles) in 0 ms.
+2014-02-22T15:44:53.040129Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kfc_roofShape_82_6.obj (1 object, 30 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.040588Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kfc_wallShape_83_6.obj (1 object, 167 vertices, 285 triangles) in 0 ms.
+2014-02-22T15:44:53.040774Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_cupboardsShape_84_6.obj (1 object, 30 vertices, 38 triangles) in 0 ms.
+2014-02-22T15:44:53.040953Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape1_85_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041138Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape2_86_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041332Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape3_87_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041498Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape4_88_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041665Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape5_89_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041829Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape6_90_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.041995Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape7_91_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.042147Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_wall_tilesShape_92_6.obj (1 object, 12 vertices, 13 triangles) in 0 ms.
+2014-02-22T15:44:53.042319Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshade1Shape_93_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T15:44:53.042493Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshadeShape2_94_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T15:44:53.042668Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshadeShape3_95_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T15:44:53.042870Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape1_96_6.obj (1 object, 64 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.042996Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape2_97_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.043124Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape3_98_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.043250Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape4_99_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.043430Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape1_100_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T15:44:53.043616Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape2_101_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T15:44:53.043800Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape3_102_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T15:44:53.044088Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitar_cappoShape_105_6.obj (1 object, 86 vertices, 164 triangles) in 0 ms.
+2014-02-22T15:44:53.045354Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitarShape_104_6.obj (1 object, 742 vertices, 1,268 triangles) in 1 ms.
+2014-02-22T15:44:53.045591Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitar_stringShape_103_6.obj (1 object, 102 vertices, 200 triangles) in 0 ms.
+2014-02-22T15:44:53.045845Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kettle1_geo_kettleShape_106_6.obj (1 object, 110 vertices, 196 triangles) in 0 ms.
+2014-02-22T15:44:53.046274Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kettle1_geo_kettle_baseShape_107_6.obj (1 object, 261 vertices, 486 triangles) in 0 ms.
+2014-02-22T15:44:53.046438Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_keyboard_geo_keyboardShape_108_6.obj (1 object, 28 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.046601Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_drimstick_meatShape_111_6.obj (1 object, 41 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.046766Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_drimstick_boneShape_110_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T15:44:53.047041Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_chipsShape_112_6.obj (1 object, 120 vertices, 216 triangles) in 0 ms.
+2014-02-22T15:44:53.047202Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_boxShape_109_6.obj (1 object, 35 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.047377Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_pepsi_strawShape_114_6.obj (1 object, 30 vertices, 50 triangles) in 0 ms.
+2014-02-22T15:44:53.047681Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_pepsiShape_113_6.obj (1 object, 86 vertices, 168 triangles) in 0 ms.
+2014-02-22T15:44:53.048627Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_knife_block_geo_knife_blockShape_115_6.obj (1 object, 374 vertices, 705 triangles) in 1 ms.
+2014-02-22T15:44:53.048901Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape1_116_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.049052Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape2_117_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.049179Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape3_118_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.049331Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_polySurfaceShape2_121_6.obj (1 object, 49 vertices, 74 triangles) in 0 ms.
+2014-02-22T15:44:53.049427Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pPlaneShape1_122_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.049557Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape2_120_6.obj (1 object, 24 vertices, 44 triangles) in 0 ms.
+2014-02-22T15:44:53.049958Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape3_123_250.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T15:44:53.050116Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape1_119_6.obj (1 object, 32 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.050439Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_speaker_geo_speakerShape_124_6.obj (1 object, 186 vertices, 355 triangles) in 0 ms.
+2014-02-22T15:44:53.050771Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_speaker1_geo_speakerShape_125_6.obj (1 object, 186 vertices, 355 triangles) in 0 ms.
+2014-02-22T15:44:53.050901Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lloyds_grossman_jar_geo_lloyds_grossman_jar_lidShape_127_6.obj (1 object, 25 vertices, 40 triangles) in 0 ms.
+2014-02-22T15:44:53.051129Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lloyds_grossman_jar_geo_lloyds_grossman_jarShape_126_6.obj (1 object, 89 vertices, 168 triangles) in 0 ms.
+2014-02-22T15:44:53.052646Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_man_master_costume_01_clothesShape_129_250.obj (1 object, 469 vertices, 914 triangles) in 1 ms.
+2014-02-22T15:44:53.055108Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_man_master_costume_01_skinShape_130_250.obj (1 object, 982 vertices, 1,800 triangles) in 2 ms.
+2014-02-22T15:44:53.055490Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_bagShape_145_6.obj (1 object, 236 vertices, 450 triangles) in 0 ms.
+2014-02-22T15:44:53.055627Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_strawShape_147_6.obj (1 object, 30 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.055808Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_cokeShape_146_6.obj (1 object, 62 vertices, 120 triangles) in 0 ms.
+2014-02-22T15:44:53.056004Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_microwave_geo_microwaveShape_148_6.obj (1 object, 68 vertices, 132 triangles) in 0 ms.
+2014-02-22T15:44:53.056218Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape2_150_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.056365Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape1_151_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.056501Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape5_152_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.056637Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape4_153_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.056774Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape3_154_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.057402Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_seatShape_155_6.obj (1 object, 468 vertices, 878 triangles) in 1 ms.
+2014-02-22T15:44:53.057734Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_baseShape_149_6.obj (1 object, 204 vertices, 380 triangles) in 0 ms.
+2014-02-22T15:44:53.057840Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape23_156_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.057939Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape24_157_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.058027Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape32_158_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.058195Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape33_159_6.obj (1 object, 25 vertices, 30 triangles) in 0 ms.
+2014-02-22T15:44:53.058354Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape34_160_6.obj (1 object, 59 vertices, 82 triangles) in 0 ms.
+2014-02-22T15:44:53.058605Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape40_161_6.obj (1 object, 156 vertices, 300 triangles) in 0 ms.
+2014-02-22T15:44:53.058709Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape58_162_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.058838Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape59_163_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T15:44:53.058971Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape60_164_6.obj (1 object, 34 vertices, 52 triangles) in 0 ms.
+2014-02-22T15:44:53.059084Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape64_165_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.059208Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape65_166_6.obj (1 object, 28 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.059386Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape67_167_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.059558Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape68_168_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.059658Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape72_169_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.059801Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape73_170_6.obj (1 object, 40 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.059919Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape74_171_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T15:44:53.060171Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape75_172_6.obj (1 object, 62 vertices, 120 triangles) in 0 ms.
+2014-02-22T15:44:53.060326Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape76_173_6.obj (1 object, 18 vertices, 26 triangles) in 0 ms.
+2014-02-22T15:44:53.060651Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape77_174_6.obj (1 object, 112 vertices, 220 triangles) in 0 ms.
+2014-02-22T15:44:53.060756Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape78_175_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.060860Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape79_176_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.060962Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape80_177_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061061Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape81_178_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061162Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape82_179_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061261Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape83_180_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061359Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape84_181_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061457Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape85_182_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.061567Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape86_183_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.061711Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape89_184_6.obj (1 object, 48 vertices, 92 triangles) in 0 ms.
+2014-02-22T15:44:53.061805Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape98_185_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T15:44:53.061895Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape99_186_6.obj (1 object, 6 vertices, 4 triangles) in 0 ms.
+2014-02-22T15:44:53.061990Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape101_187_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T15:44:53.062149Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape104_188_6.obj (1 object, 41 vertices, 64 triangles) in 0 ms.
+2014-02-22T15:44:53.062251Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape105_189_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.062348Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape108_190_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.062460Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape109_191_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T15:44:53.062558Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape110_192_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.062657Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape111_193_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.062757Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape112_194_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.063345Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape115_195_6.obj (1 object, 353 vertices, 640 triangles) in 1 ms.
+2014-02-22T15:44:53.063450Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape117_196_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.063550Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape119_197_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.063649Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape120_198_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T15:44:53.063746Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape121_199_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T15:44:53.063845Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape123_200_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.063943Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape124_201_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064039Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape125_202_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064136Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape126_203_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064228Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape127_204_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064324Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape140_205_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064419Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape141_206_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064515Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape142_207_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064613Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape143_208_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064717Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape146_209_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064823Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape147_210_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.064918Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape153_211_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.065049Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape158_212_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.065178Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape159_213_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.065315Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape160_214_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.065445Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape161_215_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T15:44:53.065545Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape172_216_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.065642Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape187_217_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T15:44:53.065737Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape188_218_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T15:44:53.065886Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape189_219_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.066054Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape190_220_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.066172Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape191_221_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.066322Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape192_222_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.066469Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape193_223_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.066598Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape194_224_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.066748Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape195_225_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.066855Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape196_226_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.066959Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape197_227_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.067106Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape198_228_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.067223Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape199_229_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.067372Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape200_230_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.067483Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape201_231_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.067609Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape202_232_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.067760Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape203_233_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.067876Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape204_234_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.067984Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape205_235_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.068142Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape206_236_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T15:44:53.068294Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape207_237_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.068464Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape208_238_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T15:44:53.068566Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape209_239_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T15:44:53.068687Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape210_240_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.068888Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape3_241_6.obj (1 object, 86 vertices, 168 triangles) in 0 ms.
+2014-02-22T15:44:53.069015Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape4_242_6.obj (1 object, 20 vertices, 34 triangles) in 0 ms.
+2014-02-22T15:44:53.069133Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape5_243_6.obj (1 object, 18 vertices, 32 triangles) in 0 ms.
+2014-02-22T15:44:53.069292Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape14_244_6.obj (1 object, 61 vertices, 115 triangles) in 0 ms.
+2014-02-22T15:44:53.069424Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape20_245_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.069563Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape21_246_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T15:44:53.069674Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape11_247_6.obj (1 object, 24 vertices, 22 triangles) in 0 ms.
+2014-02-22T15:44:53.069858Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape12_248_6.obj (1 object, 94 vertices, 92 triangles) in 0 ms.
+2014-02-22T15:44:53.069948Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape14_249_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070046Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape17_250_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070144Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape18_251_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070233Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape19_252_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070341Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape20_253_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070446Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape21_254_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070556Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape22_255_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070642Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape23_256_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070727Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape25_257_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.070844Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape26_258_6.obj (1 object, 14 vertices, 16 triangles) in 0 ms.
+2014-02-22T15:44:53.070939Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape27_259_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071032Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape28_260_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071123Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape29_261_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071225Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape30_262_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071319Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape31_263_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071410Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape32_264_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071505Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape33_265_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.071700Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape34_266_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.071895Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape35_267_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.072088Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape38_268_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.072278Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape39_269_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T15:44:53.072559Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape40_270_6.obj (1 object, 170 vertices, 270 triangles) in 0 ms.
+2014-02-22T15:44:53.073381Z <001>    16 MB warning | while loading mesh object "_Home_set_01_pasted__polySurface2_Home_set_01_pasted__polySurfaceShape2.0": 1 normal vector (out of 1,580) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T15:44:53.073424Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pasted__polySurfaceShape2_271_6.obj (1 object, 476 vertices, 924 triangles) in 1 ms.
+2014-02-22T15:44:53.073565Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape13_272_6.obj (1 object, 20 vertices, 18 triangles) in 0 ms.
+2014-02-22T15:44:53.073675Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape3_273_6.obj (1 object, 6 vertices, 4 triangles) in 0 ms.
+2014-02-22T15:44:53.073860Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape19_274_6.obj (1 object, 71 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.073996Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape41_275_6.obj (1 object, 24 vertices, 30 triangles) in 0 ms.
+2014-02-22T15:44:53.074098Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape46_276_6.obj (1 object, 10 vertices, 8 triangles) in 0 ms.
+2014-02-22T15:44:53.074220Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape49_277_6.obj (1 object, 24 vertices, 34 triangles) in 0 ms.
+2014-02-22T15:44:53.074637Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape22_278_6.obj (1 object, 314 vertices, 450 triangles) in 0 ms.
+2014-02-22T15:44:53.074837Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape61_279_6.obj (1 object, 96 vertices, 144 triangles) in 0 ms.
+2014-02-22T15:44:53.075182Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape123_280_6.obj (1 object, 176 vertices, 332 triangles) in 0 ms.
+2014-02-22T15:44:53.075344Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape53_281_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.075501Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape54_282_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.075652Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape55_283_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.075873Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape56_284_6.obj (1 object, 120 vertices, 138 triangles) in 0 ms.
+2014-02-22T15:44:53.076064Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape91_285_6.obj (1 object, 86 vertices, 120 triangles) in 0 ms.
+2014-02-22T15:44:53.076220Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape59_286_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T15:44:53.076421Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape115_287_6.obj (1 object, 92 vertices, 134 triangles) in 0 ms.
+2014-02-22T15:44:53.077327Z <001>    17 MB warning | while loading mesh object "_Home_set_01_polySurface66_Home_set_01_polySurfaceShape125.0": 12 polygonal faces (out of 536) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T15:44:53.077350Z <001>    17 MB warning | while loading mesh object "_Home_set_01_polySurface66_Home_set_01_polySurfaceShape125.0": 51 normal vectors (out of 1,938) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T15:44:53.077376Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape125_288_6.obj (1 object, 586 vertices, 1,054 triangles) in 1 ms.
+2014-02-22T15:44:53.077557Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_frying_panShape_289_6.obj (1 object, 64 vertices, 120 triangles) in 0 ms.
+2014-02-22T15:44:53.077795Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_milk_panShape_290_6.obj (1 object, 116 vertices, 208 triangles) in 0 ms.
+2014-02-22T15:44:53.078001Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_panShape_291_6.obj (1 object, 94 vertices, 184 triangles) in 0 ms.
+2014-02-22T15:44:53.078192Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pan_lidShape_292_6.obj (1 object, 86 vertices, 160 triangles) in 0 ms.
+2014-02-22T15:44:53.078509Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pasta_panShape_293_6.obj (1 object, 194 vertices, 368 triangles) in 0 ms.
+2014-02-22T15:44:53.078799Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pasta_pan_lidShape_294_6.obj (1 object, 144 vertices, 280 triangles) in 0 ms.
+2014-02-22T15:44:53.080341Z <001>    17 MB warning | while loading mesh object "_Home_set_01_radiator1_geo_radiator_Home_set_01_radiator1_geo_radiatorShape.0": 1 polygonal face (out of 1,063) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T15:44:53.080379Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radiator1_geo_radiatorShape_295_6.obj (1 object, 1,134 vertices, 2,200 triangles) in 2 ms.
+2014-02-22T15:44:53.080533Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_aerialShape_298_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T15:44:53.080646Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_aerial_twistShape_297_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T15:44:53.080838Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_bodyShape_296_6.obj (1 object, 99 vertices, 136 triangles) in 0 ms.
+2014-02-22T15:44:53.081380Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_scissors_geo_scissors_topShape_300_250.obj (1 object, 72 vertices, 144 triangles) in 0 ms.
+2014-02-22T15:44:53.081707Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_scissors_geo_scissors_bottomShape_299_6.obj (1 object, 81 vertices, 158 triangles) in 0 ms.
+2014-02-22T15:44:53.081851Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_shoe_box_geo_shoe_boxShape_301_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T15:44:53.081998Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_shoe_box_geo_shoe_box_1Shape_302_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T15:44:53.083214Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_skateboard1_geo_skateboard_mainShape_303_6.obj (1 object, 784 vertices, 1,476 triangles) in 1 ms.
+2014-02-22T15:44:53.085147Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_sofa1_geo_sofaShape_304_6.obj (1 object, 1,551 vertices, 3,086 triangles) in 2 ms.
+2014-02-22T15:44:53.085875Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toaster1_geo_toasterShape_305_6.obj (1 object, 475 vertices, 862 triangles) in 1 ms.
+2014-02-22T15:44:53.086030Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_doorShape_307_6.obj (1 object, 18 vertices, 28 triangles) in 0 ms.
+2014-02-22T15:44:53.086176Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_handleShape_308_6.obj (1 object, 24 vertices, 40 triangles) in 0 ms.
+2014-02-22T15:44:53.086324Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_hingeShape_309_6.obj (1 object, 28 vertices, 48 triangles) in 0 ms.
+2014-02-22T15:44:53.086481Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_handle_chromeShape_310_6.obj (1 object, 16 vertices, 20 triangles) in 0 ms.
+2014-02-22T15:44:53.086628Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolboxShape_306_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T15:44:53.086846Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_wacom_tablet_geo_wacom_tabletShape_311_6.obj (1 object, 56 vertices, 108 triangles) in 0 ms.
+2014-02-22T15:44:53.087298Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_wishbone_chair1_polySurfaceShape3_312_6.obj (1 object, 274 vertices, 480 triangles) in 0 ms.
+2014-02-22T15:44:53.087506Z <001>    18 MB info    | loaded mesh file ./_geometry/Home_set_01_wacom_tablet_geo_wacom_penShape_313_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T15:44:53.087622Z <001>    18 MB info    | loaded mesh file ./_geometry/maya_area_light.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.088006Z <001>    18 MB info    | loaded mesh file ./_geometry/pPlaneShape1_314_250.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.088228Z <001>    18 MB info    | loaded mesh file ./_geometry/pPlaneShape4_315_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.088423Z <001>    18 MB info    | loaded mesh file ./_geometry/maya_area_light.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T15:44:53.112476Z <001>    18 MB info    | scene bounding box: (-998.657776, -1779.792114, -886.205139)-(714.439453, 819.048828, 1213.115356).
+2014-02-22T15:44:53.112476Z <001>    18 MB info    | scene diameter: 4748.316123.
+2014-02-22T15:44:53.113135Z <001>    18 MB info    | migrating project format from revision 2 to revision 3...
+2014-02-22T15:44:53.113163Z <001>    18 MB info    | migrating project format from revision 3 to revision 4...
+2014-02-22T15:44:53.113187Z <001>    18 MB info    | migrating project format from revision 4 to revision 5...
+2014-02-22T15:44:53.113202Z <001>    18 MB info    | migrating project format from revision 5 to revision 6...
+2014-02-22T15:44:53.113257Z <001>    18 MB info    | migrating project format from revision 6 to revision 7...
+2014-02-22T15:44:53.113518Z <001>    18 MB info    | successfully loaded project file ./13_00_01.0250.appleseed.jonathans-mbp-2_lan in 122 ms (0 error, 0 warning).
+2014-02-22T15:44:53.113842Z <001>    18 MB info    | rendering frame...
+2014-02-22T15:44:53.115480Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.115748Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.115833Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.115917Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.116001Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.116084Z <001>    19 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T15:44:53.116161Z <001>    19 MB info    | opening texture file ./_textures/cutting_mat.exr for reading...
+2014-02-22T15:44:53.116285Z <001>    19 MB info    | opening texture file ./_textures/dish_cloth_01.exr for reading...
+2014-02-22T15:44:53.116377Z <001>    19 MB info    | opening texture file ./_textures/double_bed.exr for reading...
+2014-02-22T15:44:53.116453Z <001>    19 MB info    | opening texture file ./_textures/files_diff.exr for reading...
+2014-02-22T15:44:53.116558Z <001>    19 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T15:44:53.116642Z <001>    19 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T15:44:53.116721Z <001>    19 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T15:44:53.116803Z <001>    19 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T15:44:53.116880Z <001>    19 MB info    | opening texture file ./_textures/kfc.exr for reading...
+2014-02-22T15:44:53.117027Z <001>    19 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T15:44:53.117103Z <001>    19 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T15:44:53.117175Z <001>    19 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T15:44:53.117323Z <001>    19 MB info    | opening texture file ./_textures/kfc_pepsi_diff.exr for reading...
+2014-02-22T15:44:53.117509Z <001>    19 MB info    | opening texture file ./_textures/face.exr for reading...
+2014-02-22T15:44:53.117582Z <001>    19 MB info    | opening texture file ./_textures/mc_connalds_bag.exr for reading...
+2014-02-22T15:44:53.117657Z <001>    19 MB info    | opening texture file ./_textures/mc_connalds_bag.exr for reading...
+2014-02-22T15:44:53.117776Z <001>    19 MB info    | opening texture file ./_textures/office_chair.exr for reading...
+2014-02-22T15:44:53.117854Z <001>    19 MB info    | opening texture file ./_textures/house_front_side.exr for reading...
+2014-02-22T15:44:53.117967Z <001>    19 MB info    | opening texture file ./_textures/kfc.exr for reading...
+2014-02-22T15:44:53.118084Z <001>    19 MB info    | opening texture file ./_textures/post_office.exr for reading...
+2014-02-22T15:44:53.118150Z <001>    19 MB info    | opening texture file ./_textures/aircon_wall.exr for reading...
+2014-02-22T15:44:53.118258Z <001>    19 MB info    | opening texture file ./_textures/chimney_pot.exr for reading...
+2014-02-22T15:44:53.118324Z <001>    19 MB info    | opening texture file ./_textures/back_wall.exr for reading...
+2014-02-22T15:44:53.118447Z <001>    19 MB info    | opening texture file ./_textures/kitchen_surface_diff.exr for reading...
+2014-02-22T15:44:53.118522Z <001>    19 MB info    | opening texture file ./_textures/carpet_01.exr for reading...
+2014-02-22T15:44:53.118592Z <001>    20 MB info    | opening texture file ./_textures/wooden_shelf.exr for reading...
+2014-02-22T15:44:53.118674Z <001>    20 MB info    | opening texture file ./_textures/carpet.exr for reading...
+2014-02-22T15:44:53.118757Z <001>    20 MB info    | opening texture file ./_textures/curtains_diff.exr for reading...
+2014-02-22T15:44:53.118839Z <001>    20 MB info    | opening texture file ./_textures/back_brick_wall.exr for reading...
+2014-02-22T15:44:53.119054Z <001>    20 MB info    | opening texture file ./_textures/shoe_box.exr for reading...
+2014-02-22T15:44:53.119178Z <001>    20 MB info    | opening texture file ./_textures/skateboard.exr for reading...
+2014-02-22T15:44:53.119263Z <001>    20 MB info    | opening texture file ./_textures/skateboard.exr for reading...
+2014-02-22T15:44:53.119345Z <001>    20 MB info    | opening texture file ./_textures/sofa_diff.exr for reading...
+2014-02-22T15:44:53.119412Z <001>    20 MB info    | opening texture file ./_textures/sofa_spec.exr for reading...
+2014-02-22T15:44:53.119479Z <001>    20 MB info    | opening texture file ./_textures/sofa_cushion_diff.exr for reading...
+2014-02-22T15:44:53.119545Z <001>    20 MB info    | opening texture file ./_textures/sofa_cushion_spec.exr for reading...
+2014-02-22T15:44:53.119667Z <001>    20 MB info    | opening texture file ./_textures/chair_tex.exr for reading...
+2014-02-22T15:44:53.119738Z <001>    20 MB info    | opening texture file ./_textures/chair_tex.exr for reading...
+2014-02-22T15:44:53.119815Z <001>    20 MB info    | opening texture file ./_textures/laptop_screen_diff.exr for reading...
+2014-02-22T15:44:53.121541Z <001>    20 MB debug   | assigning entity "Home_set_01_laptop_light_mat_laptop_screen_edf" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission" (via rule "scene_root_assembly_Home_set_01_laptop_light_mat_laptop_screen_edf").
+2014-02-22T15:44:53.121570Z <001>    20 MB debug   | assigning entity "_laptop_fill_laptop_fillShape_edf" to render layer "_laptop_fill_laptop_fillShape" (via rule "scene_root_assembly__laptop_fill_laptop_fillShape_edf").
+2014-02-22T15:44:53.121588Z <001>    20 MB debug   | assigning entity "light_sky_edf" to render layer "light_skylight_emission" (via rule "scene_root_assembly_light_sky_edf").
+2014-02-22T15:44:53.121605Z <001>    20 MB debug   | assigning entity "light_mat_sun_fill_edf" to render layer "light_mat_sun_filllight_emission" (via rule "scene_root_assembly_light_mat_sun_fill_edf").
+2014-02-22T15:44:53.121622Z <001>    20 MB debug   | assigning entity "_sun_sunShape_edf" to render layer "_sun_sunShape" (via rule "scene_root_assembly__sun_sunShape_edf").
+2014-02-22T15:44:53.126899Z <001>    20 MB debug   | assigning entity "Home_set_01_constant_surface_shader" to render layer "window_matte" (via rule "scene_root_assembly_Home_set_01_constant_surface_shader").
+2014-02-22T15:44:53.127124Z <001>    20 MB debug   | assigning entity "Home_set_01_laptop_light_mat_laptop_screen_surface_shader" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission" (via rule "scene_root_assembly_Home_set_01_laptop_light_mat_laptop_screen_surface_shader").
+2014-02-22T15:44:53.127138Z <001>    20 MB error   | while assigning entity "Home_set_01_laptop_light_mat_laptop_screen_surface_shader" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T15:44:53.127636Z <001>    20 MB debug   | assigning entity "light_sky_surface_shader" to render layer "light_skylight_emission" (via rule "scene_root_assembly_light_sky_surface_shader").
+2014-02-22T15:44:53.127649Z <001>    20 MB error   | while assigning entity "light_sky_surface_shader" to render layer "light_skylight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T15:44:53.127676Z <001>    20 MB debug   | assigning entity "light_mat_sun_fill_surface_shader" to render layer "light_mat_sun_filllight_emission" (via rule "scene_root_assembly_light_mat_sun_fill_surface_shader").
+2014-02-22T15:44:53.127690Z <001>    20 MB error   | while assigning entity "light_mat_sun_fill_surface_shader" to render layer "light_mat_sun_filllight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T15:44:53.127711Z <001>    20 MB info    | frame settings:
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   resolution       1,024 x 1,024
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   tile size        64 x 64
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   pixel format     half
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   filter           gaussian
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   filter size      2.000000
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   color space      srgb
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   premult. alpha   off
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   clamping         off
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   gamma correction 1.000000
+2014-02-22T15:44:53.127711Z <001>    20 MB info    |   crop window      (0, 0)-(1,024, 1,024)
+2014-02-22T15:44:53.128104Z <001>    20 MB info    | building assembly tree (1 assembly instance)...
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   | assembly tree statistics:
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   build time       0 ms
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   size             296 bytes
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   nodes            total 1  interior 0  leaves 1
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   leaf volume      100.0%
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   leaf depth       avg 1.0  min 1  max 1  dev 0.0
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   leaf size        avg 1.0  min 1  max 1  dev 0.0
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   sibling overlap  avg 0.0%  min 0.0%  max 0.0%  dev 0.0%
+2014-02-22T15:44:53.128412Z <001>    20 MB debug   |   fat leaves       100.0%
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   | data structures size:
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   bvh::NodeType    128 bytes
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   GTriangleType    36 bytes
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   RegionInfo       32 bytes
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   ShadingPoint     1.1 KB
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   ShadingRay       80 bytes
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   ShadingResult    2.4 KB
+2014-02-22T15:44:53.128909Z <001>    20 MB debug   |   TriangleKey      12 bytes
+2014-02-22T15:44:53.128944Z <001>    20 MB info    | collecting light emitters...
+2014-02-22T15:44:53.129023Z <001>    20 MB info    | found 0 non-physical light, 10 emitting triangles.
+2014-02-22T15:44:53.129053Z <001>    20 MB info    | path tracing settings:
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   direct lighting  on
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   ibl              on
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   caustics         off
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   max path length  4
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   rr min path len. 3
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   next event est.  on
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   dl light samples 6.0
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   ibl env samples  1.0
+2014-02-22T15:44:53.129053Z <001>    20 MB info    |   max ray intens.  infinite
+2014-02-22T15:44:53.129155Z <001>    20 MB debug   | the scene uses alpha mapping; using standard tracing.
+2014-02-22T15:44:53.129183Z <001>    20 MB info    | rendering effort wasted by tile borders: 12.9% (tile dimensions: 64 x 64, tile margins: 4 x 4)
+2014-02-22T15:44:53.130594Z <001>    21 MB info    | using 8 threads for rendering.
+2014-02-22T15:44:53.130636Z <001>    21 MB info    | camera settings:
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   model            thinlens_camera
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   film width       2.399995
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   film height      2.399995
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   focal length     6.312673
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   autofocus        off
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   autofocus target 0.500000, 0.500000
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   focal distance   435.000000
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   diaphragm blades 0
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   diaphragm angle  0.000000
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   shutter open     0.000000
+2014-02-22T15:44:53.130636Z <001>    21 MB info    |   shutter close    1.000000
+2014-02-22T15:44:53.131134Z <001>    21 MB warning | while defining material "scene/root_assembly/_laptop_fill_laptop_fillShape_material": material is emitting light but may be partially or entirely transparent; this may lead to unexpected or unphysical results.
+2014-02-22T15:44:53.131156Z <001>    21 MB warning | while defining material "scene/root_assembly/_sun_sunShape_material": material is emitting light but may be partially or entirely transparent; this may lead to unexpected or unphysical results.
+2014-02-22T15:44:53.132025Z <002>    25 MB info    | collecting geometry for triangle tree #1778 from assembly "root_assembly" (302 regions)...
+2014-02-22T15:44:53.138928Z <002>    32 MB info    | building bvh triangle tree #1778 (48,942 static triangles, 0 moving triangle)...
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   | triangle tree #1778 statistics:
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   size             6.0 MB
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   nodes            total 43,021  interior 21,510  leaves 21,511
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   leaf volume      9.9%
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   leaf depth       avg 18.9  min 6  max 27  dev 2.8
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   leaf size        avg 2.3  min 1  max 12  dev 1.1
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   sibling overlap  avg 28.4%  min 0.0%  max 100.0%  dev 34.3%
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   fat leaves       82.7%
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   collection time  7 ms
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   partition time   73 ms
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   store time       17 ms
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   nodes alignment  64 bytes
+2014-02-22T15:44:53.237528Z <002>    40 MB debug   |   total time       105 ms
+2014-02-22T15:44:53.237879Z <002>    40 MB debug   | created intersection filter for object "_laptop_fill_laptop_fillShape.0" with 1 material (masks: 41 bytes, uvs: 48 bytes).
+2014-02-22T15:44:53.237906Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass1_Home_set_01_glassShape1.0" with 1 material (masks: 41 bytes, uvs: 2.3 KB).
+2014-02-22T15:44:53.237923Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass2_Home_set_01_glassShape2.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T15:44:53.237939Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass3_Home_set_01_glassShape3.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T15:44:53.237954Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass4_Home_set_01_glassShape4.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T15:44:53.237992Z <002>    40 MB debug   | created intersection filter for object "_sun_sunShape.0" with 1 material (masks: 41 bytes, uvs: 48 bytes).
+2014-02-22T15:45:11.230660Z <002>    45 MB info    | rendering, 0.4% done
+2014-02-22T15:45:11.241210Z <003>    45 MB info    | rendering, 0.8% done
+2014-02-22T15:45:11.270104Z <004>    46 MB info    | rendering, 1.2% done
+2014-02-22T15:45:11.289230Z <005>    46 MB info    | rendering, 1.6% done
+2014-02-22T15:45:11.297594Z <006>    46 MB info    | rendering, 2.0% done
+2014-02-22T15:45:11.314893Z <007>    46 MB info    | rendering, 2.3% done
+2014-02-22T15:45:11.327781Z <008>    46 MB info    | rendering, 2.7% done
+2014-02-22T15:45:11.356252Z <009>    47 MB info    | rendering, 3.1% done
+2014-02-22T15:45:28.696164Z <003>    47 MB info    | rendering, 3.5% done
+2014-02-22T15:45:28.751750Z <002>    47 MB info    | rendering, 3.9% done
+2014-02-22T15:45:28.785052Z <006>    48 MB info    | rendering, 4.3% done
+2014-02-22T15:45:28.795815Z <007>    48 MB info    | rendering, 4.7% done
+2014-02-22T15:45:28.820368Z <004>    48 MB info    | rendering, 5.1% done
+2014-02-22T15:45:28.845956Z <008>    48 MB info    | rendering, 5.5% done
+2014-02-22T15:45:28.871164Z <005>    49 MB info    | rendering, 5.9% done
+2014-02-22T15:45:28.900768Z <009>    49 MB info    | rendering, 6.2% done
+2014-02-22T15:45:45.646157Z <003>    50 MB info    | rendering, 6.6% done
+2014-02-22T15:45:45.684053Z <002>    50 MB info    | rendering, 7.0% done
+2014-02-22T15:46:26.699771Z <007>    50 MB info    | rendering, 7.4% done
+2014-02-22T15:46:27.925554Z <006>    51 MB info    | rendering, 7.8% done
+2014-02-22T15:46:51.028982Z <008>    51 MB info    | rendering, 8.2% done
+2014-02-22T15:46:57.336444Z <004>    51 MB info    | rendering, 8.6% done
+2014-02-22T15:47:01.243522Z <009>    51 MB info    | rendering, 9.0% done
+2014-02-22T15:47:03.113518Z <005>    51 MB info    | rendering, 9.4% done
+2014-02-22T15:47:17.291046Z <009>    52 MB info    | rendering, 9.8% done
+2014-02-22T15:47:17.700982Z <003>    52 MB info    | rendering, 10.2% done
+2014-02-22T15:47:18.049909Z <002>    52 MB info    | rendering, 10.5% done
+2014-02-22T15:47:19.360459Z <005>    52 MB info    | rendering, 10.9% done
+2014-02-22T15:47:34.020801Z <009>    53 MB info    | rendering, 11.3% done
+2014-02-22T15:47:34.467407Z <003>    53 MB info    | rendering, 11.7% done
+2014-02-22T15:47:48.863278Z <008>    53 MB info    | rendering, 12.1% done
+2014-02-22T15:47:49.200226Z <007>    53 MB info    | rendering, 12.5% done
+2014-02-22T15:47:54.505861Z <004>    54 MB info    | rendering, 12.9% done
+2014-02-22T15:47:58.083203Z <006>    54 MB info    | rendering, 13.3% done
+2014-02-22T15:48:11.549546Z <002>    54 MB info    | rendering, 13.7% done
+2014-02-22T15:48:18.517353Z <005>    54 MB info    | rendering, 14.1% done
+2014-02-22T15:48:50.285233Z <004>    54 MB info    | rendering, 14.5% done
+2014-02-22T15:48:56.797478Z <007>    55 MB info    | rendering, 14.8% done
+2014-02-22T15:49:00.886806Z <003>    55 MB info    | rendering, 15.2% done
+2014-02-22T15:49:01.573925Z <002>    55 MB info    | rendering, 15.6% done
+2014-02-22T15:49:03.101815Z <009>    55 MB info    | rendering, 16.0% done
+2014-02-22T15:49:08.211360Z <006>    56 MB info    | rendering, 16.4% done
+2014-02-22T15:49:10.004165Z <008>    56 MB info    | rendering, 16.8% done
+2014-02-22T15:49:13.781295Z <005>    56 MB info    | rendering, 17.2% done
+2014-02-22T15:49:18.474233Z <003>    56 MB info    | rendering, 17.6% done
+2014-02-22T15:49:19.393738Z <002>    56 MB info    | rendering, 18.0% done
+2014-02-22T15:49:20.101361Z <009>    57 MB info    | rendering, 18.4% done
+2014-02-22T15:49:25.275344Z <006>    57 MB info    | rendering, 18.8% done
+2014-02-22T15:49:27.144385Z <008>    57 MB info    | rendering, 19.1% done
+2014-02-22T15:49:27.925138Z <004>    57 MB info    | rendering, 19.5% done
+2014-02-22T15:49:30.997266Z <005>    58 MB info    | rendering, 19.9% done
+2014-02-22T15:49:35.500829Z <003>    58 MB info    | rendering, 20.3% done
+2014-02-22T15:49:36.214890Z <007>    58 MB info    | rendering, 20.7% done
+2014-02-22T15:49:36.628422Z <002>    58 MB info    | rendering, 21.1% done
+2014-02-22T15:49:37.364583Z <009>    59 MB info    | rendering, 21.5% done
+2014-02-22T15:49:42.715925Z <006>    59 MB info    | rendering, 21.9% done
+2014-02-22T15:49:44.659858Z <008>    59 MB info    | rendering, 22.3% done
+2014-02-22T15:49:45.358987Z <004>    59 MB info    | rendering, 22.7% done
+2014-02-22T15:49:48.471570Z <005>    59 MB info    | rendering, 23.0% done
+2014-02-22T15:49:52.841503Z <003>    60 MB info    | rendering, 23.4% done
+2014-02-22T15:49:53.656766Z <007>    60 MB info    | rendering, 23.8% done
+2014-02-22T15:49:53.916420Z <002>    60 MB info    | rendering, 24.2% done
+2014-02-22T15:49:54.630371Z <009>    60 MB info    | rendering, 24.6% done
+2014-02-22T15:49:59.686561Z <006>    61 MB info    | rendering, 25.0% done
+2014-02-22T15:50:01.671349Z <008>    61 MB info    | rendering, 25.4% done
+2014-02-22T15:50:02.372065Z <004>    61 MB info    | rendering, 25.8% done
+2014-02-22T15:50:05.571429Z <005>    61 MB info    | rendering, 26.2% done
+2014-02-22T15:50:09.848720Z <003>    62 MB info    | rendering, 26.6% done
+2014-02-22T15:50:10.742824Z <007>    62 MB info    | rendering, 27.0% done
+2014-02-22T15:50:11.051318Z <002>    62 MB info    | rendering, 27.3% done
+2014-02-22T15:50:11.781581Z <009>    62 MB info    | rendering, 27.7% done
+2014-02-22T15:50:16.734405Z <006>    62 MB info    | rendering, 28.1% done
+2014-02-22T15:50:18.862962Z <008>    63 MB info    | rendering, 28.5% done
+2014-02-22T15:50:19.547292Z <004>    63 MB info    | rendering, 28.9% done
+2014-02-22T15:50:22.939331Z <005>    63 MB info    | rendering, 29.3% done
+2014-02-22T15:50:27.034870Z <003>    63 MB info    | rendering, 29.7% done
+2014-02-22T15:50:27.916312Z <007>    64 MB info    | rendering, 30.1% done
+2014-02-22T15:50:28.163515Z <002>    64 MB info    | rendering, 30.5% done
+2014-02-22T15:50:28.922944Z <009>    64 MB info    | rendering, 30.9% done
+2014-02-22T15:50:33.828773Z <006>    64 MB info    | rendering, 31.2% done
+2014-02-22T15:50:36.122236Z <008>    64 MB info    | rendering, 31.6% done
+2014-02-22T15:50:37.044825Z <004>    65 MB info    | rendering, 32.0% done
+2014-02-22T15:50:40.791156Z <005>    65 MB info    | rendering, 32.4% done
+2014-02-22T15:50:44.803275Z <003>    65 MB info    | rendering, 32.8% done
+2014-02-22T15:50:45.788276Z <007>    65 MB info    | rendering, 33.2% done
+2014-02-22T15:50:46.121253Z <002>    66 MB info    | rendering, 33.6% done
+2014-02-22T15:50:47.057294Z <009>    66 MB info    | rendering, 34.0% done
+2014-02-22T15:50:51.671014Z <006>    66 MB info    | rendering, 34.4% done
+2014-02-22T15:50:54.238875Z <008>    66 MB info    | rendering, 34.8% done
+2014-02-22T15:50:55.181207Z <004>    67 MB info    | rendering, 35.2% done
+2014-02-22T15:50:59.120321Z <005>    67 MB info    | rendering, 35.5% done
+2014-02-22T15:51:02.605271Z <003>    67 MB info    | rendering, 35.9% done
+2014-02-22T15:51:03.485147Z <007>    67 MB info    | rendering, 36.3% done
+2014-02-22T15:51:03.593493Z <002>    67 MB info    | rendering, 36.7% done
+2014-02-22T15:51:04.439734Z <009>    68 MB info    | rendering, 37.1% done
+2014-02-22T15:51:09.164546Z <006>    68 MB info    | rendering, 37.5% done
+2014-02-22T15:51:13.826384Z <008>    68 MB info    | rendering, 37.9% done
+2014-02-22T15:51:23.298310Z <003>    68 MB info    | rendering, 38.3% done
+2014-02-22T15:51:24.007730Z <007>    69 MB info    | rendering, 38.7% done
+2014-02-22T15:51:24.128441Z <002>    69 MB info    | rendering, 39.1% done
+2014-02-22T15:51:25.024998Z <009>    69 MB info    | rendering, 39.5% done
+2014-02-22T15:51:25.607402Z <004>    69 MB info    | rendering, 39.8% done
+2014-02-22T15:51:33.155881Z <005>    70 MB info    | rendering, 40.2% done
+2014-02-22T15:51:35.859889Z <006>    70 MB info    | rendering, 40.6% done
+2014-02-22T15:51:41.259595Z <008>    70 MB info    | rendering, 41.0% done
+2014-02-22T15:51:45.331759Z <007>    70 MB info    | rendering, 41.4% done
+2014-02-22T15:51:45.688232Z <003>    70 MB info    | rendering, 41.8% done
+2014-02-22T15:51:51.659577Z <002>    71 MB info    | rendering, 42.2% done
+2014-02-22T15:52:00.094809Z <009>    71 MB info    | rendering, 42.6% done
+2014-02-22T15:52:01.189901Z <004>    71 MB info    | rendering, 43.0% done
+2014-02-22T15:52:04.883609Z <005>    71 MB info    | rendering, 43.4% done
+2014-02-22T15:52:07.887878Z <006>    72 MB info    | rendering, 43.8% done
+2014-02-22T15:52:14.081717Z <008>    72 MB info    | rendering, 44.1% done
+2014-02-22T15:52:19.463095Z <007>    72 MB info    | rendering, 44.5% done
+2014-02-22T15:52:20.804991Z <004>    72 MB info    | rendering, 44.9% done
+2014-02-22T15:52:24.263050Z <003>    73 MB info    | rendering, 45.3% done
+2014-02-22T15:52:24.304485Z <005>    73 MB info    | rendering, 45.7% done
+2014-02-22T15:52:24.988872Z <002>    73 MB info    | rendering, 46.1% done
+2014-02-22T15:52:32.871582Z <009>    73 MB info    | rendering, 46.5% done
+2014-02-22T15:52:37.938319Z <007>    73 MB info    | rendering, 46.9% done
+2014-02-22T15:52:39.163088Z <004>    74 MB info    | rendering, 47.3% done
+2014-02-22T15:52:45.487104Z <006>    74 MB info    | rendering, 47.7% done
+2014-02-22T15:53:07.136990Z <008>    74 MB info    | rendering, 48.0% done
+2014-02-22T15:53:10.949058Z <003>    74 MB info    | rendering, 48.4% done
+2014-02-22T15:53:17.445170Z <009>    75 MB info    | rendering, 48.8% done
+2014-02-22T15:53:23.613745Z <005>    75 MB info    | rendering, 49.2% done
+2014-02-22T15:53:24.373707Z <007>    75 MB info    | rendering, 49.6% done
+2014-02-22T15:53:29.894860Z <002>    75 MB info    | rendering, 50.0% done
+2014-02-22T15:53:52.979703Z <006>    75 MB info    | rendering, 50.4% done
+2014-02-22T15:53:58.492235Z <004>    76 MB info    | rendering, 50.8% done
+2014-02-22T15:54:17.552050Z <007>    76 MB info    | rendering, 51.2% done
+2014-02-22T15:54:19.744389Z <008>    76 MB info    | rendering, 51.6% done
+2014-02-22T15:54:20.133236Z <005>    76 MB info    | rendering, 52.0% done
+2014-02-22T15:54:24.567232Z <006>    77 MB info    | rendering, 52.3% done
+2014-02-22T15:54:30.992569Z <004>    77 MB info    | rendering, 52.7% done
+2014-02-22T15:54:31.601756Z <009>    77 MB info    | rendering, 53.1% done
+2014-02-22T15:54:35.841726Z <002>    77 MB info    | rendering, 53.5% done
+2014-02-22T15:54:44.902083Z <003>    77 MB info    | rendering, 53.9% done
+2014-02-22T15:54:48.088938Z <007>    78 MB info    | rendering, 54.3% done
+2014-02-22T15:54:50.920954Z <008>    78 MB info    | rendering, 54.7% done
+2014-02-22T15:54:51.607199Z <005>    78 MB info    | rendering, 55.1% done
+2014-02-22T15:54:55.578750Z <006>    78 MB info    | rendering, 55.5% done
+2014-02-22T15:55:02.696725Z <004>    79 MB info    | rendering, 55.9% done
+2014-02-22T15:55:03.240399Z <009>    79 MB info    | rendering, 56.2% done
+2014-02-22T15:55:07.863071Z <002>    79 MB info    | rendering, 56.6% done
+2014-02-22T15:55:14.210486Z <006>    79 MB info    | rendering, 57.0% done
+2014-02-22T15:55:18.072925Z <003>    80 MB info    | rendering, 57.4% done
+2014-02-22T15:55:18.688172Z <005>    80 MB info    | rendering, 57.8% done
+2014-02-22T15:55:20.706107Z <007>    80 MB info    | rendering, 58.2% done
+2014-02-22T15:55:21.701217Z <004>    80 MB info    | rendering, 58.6% done
+2014-02-22T15:55:24.617125Z <008>    80 MB info    | rendering, 59.0% done
+2014-02-22T15:55:29.458399Z <009>    81 MB info    | rendering, 59.4% done
+2014-02-22T15:55:31.758682Z <002>    81 MB info    | rendering, 59.8% done
+2014-02-22T15:55:34.596394Z <006>    81 MB info    | rendering, 60.2% done
+2014-02-22T15:55:39.566697Z <003>    81 MB info    | rendering, 60.5% done
+2014-02-22T15:55:40.286138Z <005>    82 MB info    | rendering, 60.9% done
+2014-02-22T15:55:51.793186Z <007>    82 MB info    | rendering, 61.3% done
+2014-02-22T15:55:53.895832Z <004>    82 MB info    | rendering, 61.7% done
+2014-02-22T15:56:00.631858Z <008>    82 MB info    | rendering, 62.1% done
+2014-02-22T15:56:06.506953Z <009>    82 MB info    | rendering, 62.5% done
+2014-02-22T15:56:08.006045Z <003>    83 MB info    | rendering, 62.9% done
+2014-02-22T15:56:08.963460Z <002>    83 MB info    | rendering, 63.3% done
+2014-02-22T15:56:11.016935Z <007>    83 MB info    | rendering, 63.7% done
+2014-02-22T15:56:11.108374Z <006>    83 MB info    | rendering, 64.1% done
+2014-02-22T15:56:11.176756Z <005>    84 MB info    | rendering, 64.5% done
+2014-02-22T15:56:15.711032Z <004>    84 MB info    | rendering, 64.8% done
+2014-02-22T15:56:22.302711Z <008>    84 MB info    | rendering, 65.2% done
+2014-02-22T15:56:26.360244Z <009>    84 MB info    | rendering, 65.6% done
+2014-02-22T15:56:28.989795Z <003>    84 MB info    | rendering, 66.0% done
+2014-02-22T15:56:30.267047Z <002>    85 MB info    | rendering, 66.4% done
+2014-02-22T15:56:32.026666Z <007>    85 MB info    | rendering, 66.8% done
+2014-02-22T15:56:32.645108Z <005>    85 MB info    | rendering, 67.2% done
+2014-02-22T15:56:32.927972Z <006>    85 MB info    | rendering, 67.6% done
+2014-02-22T15:56:39.824687Z <004>    86 MB info    | rendering, 68.0% done
+2014-02-22T15:56:56.457867Z <008>    86 MB info    | rendering, 68.4% done
+2014-02-22T15:56:58.857380Z <009>    86 MB info    | rendering, 68.8% done
+2014-02-22T15:57:01.319121Z <002>    86 MB info    | rendering, 69.1% done
+2014-02-22T15:57:02.879791Z <007>    87 MB info    | rendering, 69.5% done
+2014-02-22T15:57:03.787522Z <003>    87 MB info    | rendering, 69.9% done
+2014-02-22T15:57:04.485701Z <006>    87 MB info    | rendering, 70.3% done
+2014-02-22T15:57:05.882159Z <005>    87 MB info    | rendering, 70.7% done
+2014-02-22T15:57:10.183110Z <004>    87 MB info    | rendering, 71.1% done
+2014-02-22T15:57:28.104726Z <008>    88 MB info    | rendering, 71.5% done
+2014-02-22T15:57:29.588545Z <009>    88 MB info    | rendering, 71.9% done
+2014-02-22T15:57:37.029079Z <002>    88 MB info    | rendering, 72.3% done
+2014-02-22T15:57:43.193325Z <007>    88 MB info    | rendering, 72.7% done
+2014-02-22T15:57:44.946817Z <006>    89 MB info    | rendering, 73.0% done
+2014-02-22T15:57:51.725858Z <003>    89 MB info    | rendering, 73.4% done
+2014-02-22T15:57:53.846110Z <004>    89 MB info    | rendering, 73.8% done
+2014-02-22T15:58:07.671822Z <008>    89 MB info    | rendering, 74.2% done
+2014-02-22T15:58:24.471416Z <005>    89 MB info    | rendering, 74.6% done
+2014-02-22T15:58:43.589344Z <009>    90 MB info    | rendering, 75.0% done
+2014-02-22T15:58:44.252070Z <002>    90 MB info    | rendering, 75.4% done
+2014-02-22T15:58:56.933128Z <004>    90 MB info    | rendering, 75.8% done
+2014-02-22T15:58:58.573675Z <003>    90 MB info    | rendering, 76.2% done
+2014-02-22T15:59:00.985761Z <007>    91 MB info    | rendering, 76.6% done
+2014-02-22T15:59:01.587691Z <006>    91 MB info    | rendering, 77.0% done
+2014-02-22T15:59:12.869140Z <008>    91 MB info    | rendering, 77.3% done
+2014-02-22T15:59:18.451264Z <002>    91 MB info    | rendering, 77.7% done
+2014-02-22T15:59:30.254560Z <004>    91 MB info    | rendering, 78.1% done
+2014-02-22T15:59:38.799732Z <005>    92 MB info    | rendering, 78.5% done
+2014-02-22T15:59:46.112095Z <006>    92 MB info    | rendering, 78.9% done
+2014-02-22T15:59:46.641461Z <009>    92 MB info    | rendering, 79.3% done
+2014-02-22T15:59:49.607942Z <008>    92 MB info    | rendering, 79.7% done
+2014-02-22T15:59:56.901904Z <002>    92 MB info    | rendering, 80.1% done
+2014-02-22T16:00:05.615990Z <003>    93 MB info    | rendering, 80.5% done
+2014-02-22T16:00:10.732648Z <004>    93 MB info    | rendering, 80.9% done
+2014-02-22T16:00:10.750314Z <007>    93 MB info    | rendering, 81.2% done
+2014-02-22T16:00:35.506119Z <005>    93 MB info    | rendering, 81.6% done
+2014-02-22T16:01:03.289755Z <006>    94 MB info    | rendering, 82.0% done
+2014-02-22T16:01:14.118187Z <008>    94 MB info    | rendering, 82.4% done
+2014-02-22T16:01:21.258107Z <009>    94 MB info    | rendering, 82.8% done
+2014-02-22T16:01:39.285855Z <003>    94 MB info    | rendering, 83.2% done
+2014-02-22T16:01:47.433218Z <004>    94 MB info    | rendering, 83.6% done
+2014-02-22T16:01:50.092796Z <002>    95 MB info    | rendering, 84.0% done
+2014-02-22T16:01:57.124464Z <007>    95 MB info    | rendering, 84.4% done
+2014-02-22T16:02:11.029283Z <005>    95 MB info    | rendering, 84.8% done
+2014-02-22T16:02:37.369131Z <006>    95 MB info    | rendering, 85.2% done
+2014-02-22T16:02:45.704888Z <008>    96 MB info    | rendering, 85.5% done
+2014-02-22T16:03:08.290332Z <009>    96 MB info    | rendering, 85.9% done
+2014-02-22T16:03:21.271309Z <003>    96 MB info    | rendering, 86.3% done
+2014-02-22T16:03:22.355161Z <004>    96 MB info    | rendering, 86.7% done
+2014-02-22T16:03:22.533622Z <002>    96 MB info    | rendering, 87.1% done
+2014-02-22T16:03:23.631371Z <007>    97 MB info    | rendering, 87.5% done
+2014-02-22T16:03:29.369289Z <005>    97 MB info    | rendering, 87.9% done
+2014-02-22T16:04:12.246616Z <006>    97 MB info    | rendering, 88.3% done
+2014-02-22T16:04:45.938739Z <004>    97 MB info    | rendering, 88.7% done
+2014-02-22T16:04:47.184319Z <008>    98 MB info    | rendering, 89.1% done
+2014-02-22T16:05:03.347280Z <005>    98 MB info    | rendering, 89.5% done
+2014-02-22T16:05:08.930866Z <002>    98 MB info    | rendering, 89.8% done
+2014-02-22T16:05:10.514775Z <009>    98 MB info    | rendering, 90.2% done
+2014-02-22T16:05:16.642526Z <007>    98 MB info    | rendering, 90.6% done
+2014-02-22T16:05:18.877311Z <003>    99 MB info    | rendering, 91.0% done
+2014-02-22T16:05:35.545957Z <006>    99 MB info    | rendering, 91.4% done
+2014-02-22T16:05:51.670256Z <004>    99 MB info    | rendering, 91.8% done
+2014-02-22T16:05:56.355783Z <008>    99 MB info    | rendering, 92.2% done
+2014-02-22T16:06:06.595512Z <006>   100 MB info    | rendering, 92.6% done
+2014-02-22T16:06:11.528716Z <005>   100 MB info    | rendering, 93.0% done
+2014-02-22T16:06:22.569852Z <004>   100 MB info    | rendering, 93.4% done
+2014-02-22T16:06:24.471877Z <007>   100 MB info    | rendering, 93.8% done
+2014-02-22T16:06:30.639770Z <003>   100 MB info    | rendering, 94.1% done
+2014-02-22T16:06:32.357744Z <002>   101 MB info    | rendering, 94.5% done
+2014-02-22T16:06:32.564879Z <009>   101 MB info    | rendering, 94.9% done
+2014-02-22T16:06:54.334394Z <004>   101 MB info    | rendering, 95.3% done
+2014-02-22T16:06:56.492602Z <007>   101 MB info    | rendering, 95.7% done
+2014-02-22T16:07:09.199051Z <008>   102 MB info    | rendering, 96.1% done
+2014-02-22T16:07:12.366246Z <005>   102 MB info    | rendering, 96.5% done
+2014-02-22T16:07:16.436033Z <006>   102 MB info    | rendering, 96.9% done
+2014-02-22T16:07:40.472995Z <002>   102 MB info    | rendering, 97.3% done
+2014-02-22T16:07:41.242289Z <009>   102 MB info    | rendering, 97.7% done
+2014-02-22T16:07:44.628095Z <003>   102 MB info    | rendering, 98.0% done
+2014-02-22T16:07:57.988733Z <004>   102 MB info    | rendering, 98.4% done
+2014-02-22T16:08:02.665818Z <007>   102 MB info    | rendering, 98.8% done
+2014-02-22T16:08:12.024887Z <006>   102 MB info    | rendering, 99.2% done
+2014-02-22T16:08:12.688564Z <008>   101 MB info    | rendering, 99.6% done
+2014-02-22T16:08:14.614456Z <005>   100 MB info    | rendering, 100.0% done
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | texture cache statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   performances     efficiency 100.0%  accesses 493,196,087  hits 493,185,872  misses 10,215
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | intersection statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   total rays       4,204,950,349
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   shading rays     4,204,950,349 (100.0%)
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   probe rays       0 (0.0%)
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | region tree access cache statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   combined         n/a
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-0          n/a
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-1          n/a
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | triangle tree access cache statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   combined         efficiency 100.0%  accesses 4,204,950,349  hits 4,204,950,341  misses 8
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-0          efficiency 100.0%  accesses 4,204,950,349  hits 4,204,950,341  misses 8
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-1          efficiency 0.0%  accesses 8  hits 0  misses 8
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | region kit access cache statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   combined         efficiency 89.9%  accesses 2,689,359,933  hits 2,416,929,072  misses 272,430,861
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-0          efficiency 76.5%  accesses 2,689,359,933  hits 2,057,049,424  misses 632,310,509
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-1          efficiency 56.9%  accesses 632,310,509  hits 359,879,648  misses 272,430,861
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | tessellation access cache statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   combined         efficiency 89.9%  accesses 2,689,359,933  hits 2,416,929,072  misses 272,430,861
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-0          efficiency 76.5%  accesses 2,689,359,933  hits 2,057,049,424  misses 632,310,509
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   stage-1          efficiency 56.9%  accesses 632,310,509  hits 359,879,648  misses 272,430,861
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   | path tracing statistics:
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   path count       382,466,107
+2014-02-22T16:08:14.620074Z <001>    99 MB debug   |   path length      avg 2.6  min 1  max 4  dev 0.8
+2014-02-22T16:08:14.620248Z <001>    99 MB debug   | texture store statistics:
+2014-02-22T16:08:14.620248Z <001>    99 MB debug   |   performances     efficiency 88.7%  accesses 10,215  hits 9,058  misses 1,157
+2014-02-22T16:08:14.620248Z <001>    99 MB debug   |   peak size        6.6 MB
+2014-02-22T16:08:14.621255Z <001>    99 MB info    | rendering finished in 23 minutes 21.507 seconds.
+2014-02-22T16:08:14.621301Z <001>    99 MB info    | writing frame to disk...
+2014-02-22T16:08:14.939156Z <001>   107 MB info    | wrote image file ./_renders/13_00_01.0250.exr in 272 ms.
+2014-02-22T16:08:15.135183Z <001>   107 MB info    | wrote image file ./_renders/13_00_01.0250.Home_set_01_laptop_light_mat_laptop_screenlight_emission.exr in 195 ms.
+2014-02-22T16:08:15.415040Z <001>   107 MB info    | wrote image file ./_renders/13_00_01.0250._laptop_fill_laptop_fillShape.exr in 280 ms.
+2014-02-22T16:08:15.718649Z <001>   108 MB info    | wrote image file ./_renders/13_00_01.0250.light_skylight_emission.exr in 304 ms.
+2014-02-22T16:08:16.115803Z <001>   108 MB info    | wrote image file ./_renders/13_00_01.0250.light_mat_sun_filllight_emission.exr in 397 ms.
+2014-02-22T16:08:16.305810Z <001>   108 MB info    | wrote image file ./_renders/13_00_01.0250._sun_sunShape.exr in 190 ms.
+2014-02-22T16:08:16.367053Z <001>   108 MB info    | wrote image file ./_renders/13_00_01.0250.window_matte.exr in 61 ms.
+2014-02-22T16:08:16.367105Z <001>   108 MB info    | deleting assembly tree...
+2014-02-22T16:08:16.367122Z <001>   108 MB info    | deleting triangle tree #1778...
+2014-02-22T16:08:16.801733Z <001>    11 MB info    | loading project file ./13_00_01.0373.appleseed.jonathans-mbp-2_lan...
+2014-02-22T16:08:16.822535Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape2_1_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.822693Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape1_2_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.822872Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_polySurfaceShape16_3_373.obj (1 object, 36 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.823055Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape5_4_373.obj (1 object, 60 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.823175Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape4_5_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.823294Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape3_6_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.823456Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_wire_Shape1_7_373.obj (1 object, 40 vertices, 70 triangles) in 0 ms.
+2014-02-22T16:08:16.823742Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_headShape_8_373.obj (1 object, 133 vertices, 240 triangles) in 0 ms.
+2014-02-22T16:08:16.823971Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_arm_Shape6_9_373.obj (1 object, 96 vertices, 172 triangles) in 0 ms.
+2014-02-22T16:08:16.824158Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_wire_Shape2_10_373.obj (1 object, 70 vertices, 130 triangles) in 0 ms.
+2014-02-22T16:08:16.824517Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_plugShape_11_6.obj (1 object, 219 vertices, 406 triangles) in 0 ms.
+2014-02-22T16:08:16.824674Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_geo_lamp_baseShape_12_6.obj (1 object, 34 vertices, 64 triangles) in 0 ms.
+2014-02-22T16:08:16.824811Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_angle_poise_lamp_pCylinderShape18_13_6.obj (1 object, 20 vertices, 30 triangles) in 0 ms.
+2014-02-22T16:08:16.825389Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_front_wheelShape_16_6.obj (1 object, 476 vertices, 660 triangles) in 1 ms.
+2014-02-22T16:08:16.825917Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_forksShape_15_6.obj (1 object, 277 vertices, 514 triangles) in 0 ms.
+2014-02-22T16:08:16.826164Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_chainShape_17_6.obj (1 object, 78 vertices, 144 triangles) in 0 ms.
+2014-02-22T16:08:16.826725Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_back_wheelShape_18_6.obj (1 object, 428 vertices, 564 triangles) in 0 ms.
+2014-02-22T16:08:16.826876Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_left_pedalShape_20_6.obj (1 object, 28 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.827019Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_right_pedalShape_21_6.obj (1 object, 28 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.827214Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_pedalsShape_19_6.obj (1 object, 90 vertices, 160 triangles) in 0 ms.
+2014-02-22T16:08:16.827787Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_bike1_geo_bike_bodyShape_14_6.obj (1 object, 398 vertices, 724 triangles) in 1 ms.
+2014-02-22T16:08:16.828049Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape1_22_6.obj (1 object, 108 vertices, 212 triangles) in 0 ms.
+2014-02-22T16:08:16.828232Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape3_23_6.obj (1 object, 60 vertices, 116 triangles) in 0 ms.
+2014-02-22T16:08:16.828487Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape4_24_6.obj (1 object, 90 vertices, 176 triangles) in 0 ms.
+2014-02-22T16:08:16.828743Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape5_25_6.obj (1 object, 124 vertices, 244 triangles) in 0 ms.
+2014-02-22T16:08:16.829035Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape6_26_6.obj (1 object, 95 vertices, 186 triangles) in 0 ms.
+2014-02-22T16:08:16.829383Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape10_27_6.obj (1 object, 124 vertices, 244 triangles) in 0 ms.
+2014-02-22T16:08:16.829628Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape11_28_6.obj (1 object, 108 vertices, 212 triangles) in 0 ms.
+2014-02-22T16:08:16.829804Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape12_29_6.obj (1 object, 60 vertices, 116 triangles) in 0 ms.
+2014-02-22T16:08:16.830080Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_pCubeShape13_30_6.obj (1 object, 95 vertices, 186 triangles) in 0 ms.
+2014-02-22T16:08:16.830955Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_polySurfaceShape11_31_6.obj (1 object, 604 vertices, 1,188 triangles) in 1 ms.
+2014-02-22T16:08:16.831259Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_books_polySurfaceShape23_32_6.obj (1 object, 164 vertices, 306 triangles) in 0 ms.
+2014-02-22T16:08:16.831424Z <001>    13 MB info    | loaded mesh file ./_geometry/Home_set_01_box_table1_geo_box_tableShape_33_6.obj (1 object, 47 vertices, 88 triangles) in 0 ms.
+2014-02-22T16:08:16.833628Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape1_34_6.obj (1 object, 2,099 vertices, 1,842 triangles) in 2 ms.
+2014-02-22T16:08:16.833857Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape2_35_6.obj (1 object, 71 vertices, 130 triangles) in 0 ms.
+2014-02-22T16:08:16.834467Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cacti1_geo_cactus_Shape3_36_6.obj (1 object, 501 vertices, 589 triangles) in 1 ms.
+2014-02-22T16:08:16.834667Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cerial_box_geo_cerial_box_bagShape_38_6.obj (1 object, 85 vertices, 152 triangles) in 0 ms.
+2014-02-22T16:08:16.834947Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cerial_box_geo_cerial_boxShape_37_6.obj (1 object, 110 vertices, 193 triangles) in 0 ms.
+2014-02-22T16:08:16.835119Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_chopping_board_geo_chopping_boardShape_39_6.obj (1 object, 47 vertices, 82 triangles) in 0 ms.
+2014-02-22T16:08:16.835299Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can_geo_coke_canShape_40_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.835483Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can1_geo_coke_canShape_41_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.835665Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can2_geo_coke_canShape_42_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.835846Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can3_geo_coke_canShape_43_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.836024Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can4_geo_coke_canShape_44_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.836200Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_coke_can5_geo_coke_canShape_45_6.obj (1 object, 77 vertices, 146 triangles) in 0 ms.
+2014-02-22T16:08:16.836306Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_cutting_mat_geo_cutting_matShape_46_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.836550Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dead_plant_geo_dead_plantShape_47_6.obj (1 object, 168 vertices, 226 triangles) in 0 ms.
+2014-02-22T16:08:16.836763Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_bowl_0Shape1_48_6.obj (1 object, 112 vertices, 220 triangles) in 0 ms.
+2014-02-22T16:08:16.836962Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_forkShape_49_6.obj (1 object, 96 vertices, 188 triangles) in 0 ms.
+2014-02-22T16:08:16.837099Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_knifeShape_50_6.obj (1 object, 33 vertices, 62 triangles) in 0 ms.
+2014-02-22T16:08:16.837288Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_plate_0Shape1_51_6.obj (1 object, 82 vertices, 160 triangles) in 0 ms.
+2014-02-22T16:08:16.837472Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_saucer_0Shape1_52_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.837830Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spaghetti_plateShape_53_6.obj (1 object, 260 vertices, 432 triangles) in 0 ms.
+2014-02-22T16:08:16.838065Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spatula_endShape_55_6.obj (1 object, 104 vertices, 228 triangles) in 0 ms.
+2014-02-22T16:08:16.838225Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_spatula_handleShape_54_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.838402Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_table_spoonShape_56_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.838728Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_table_wooden_spoonShape_57_6.obj (1 object, 66 vertices, 128 triangles) in 0 ms.
+2014-02-22T16:08:16.838976Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishes_geo_tea_spoonShape_58_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.839667Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_dishrack1_geo_dishrackShape_59_6.obj (1 object, 432 vertices, 664 triangles) in 1 ms.
+2014-02-22T16:08:16.839925Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_door_knobsShape_61_6.obj (1 object, 50 vertices, 84 triangles) in 0 ms.
+2014-02-22T16:08:16.840169Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_outputCloth1_62_6.obj (1 object, 82 vertices, 130 triangles) in 0 ms.
+2014-02-22T16:08:16.840831Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_outputCloth2_63_6.obj (1 object, 550 vertices, 1,020 triangles) in 1 ms.
+2014-02-22T16:08:16.841073Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_door_hangerShape_64_6.obj (1 object, 140 vertices, 252 triangles) in 0 ms.
+2014-02-22T16:08:16.841179Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_door_geo_doorShape_60_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.841312Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape1_66_6.obj (1 object, 26 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.841443Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape2_67_6.obj (1 object, 27 vertices, 50 triangles) in 0 ms.
+2014-02-22T16:08:16.841575Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_pillowShape_68_6.obj (1 object, 30 vertices, 56 triangles) in 0 ms.
+2014-02-22T16:08:16.841895Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_duvetShape_69_6.obj (1 object, 242 vertices, 480 triangles) in 0 ms.
+2014-02-22T16:08:16.842246Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_matressShape_70_6.obj (1 object, 184 vertices, 364 triangles) in 0 ms.
+2014-02-22T16:08:16.842415Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_geo_bed_frameShape_65_6.obj (1 object, 68 vertices, 96 triangles) in 0 ms.
+2014-02-22T16:08:16.842511Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_double_bed_pPlaneShape1_71_373.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.842676Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape1_72_6.obj (1 object, 56 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.842885Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape2_73_6.obj (1 object, 84 vertices, 148 triangles) in 0 ms.
+2014-02-22T16:08:16.843088Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_files_geo_files_0Shape3_74_6.obj (1 object, 80 vertices, 136 triangles) in 0 ms.
+2014-02-22T16:08:16.843235Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fire_blanket_geo_fire_blanketShape_75_373.obj (1 object, 44 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.843384Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fridge_geo_fridge_doorShape_77_373.obj (1 object, 44 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.843587Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_fridge_geo_fridgeShape_76_6.obj (1 object, 90 vertices, 164 triangles) in 0 ms.
+2014-02-22T16:08:16.844011Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_antennaShape_78_6.obj (1 object, 314 vertices, 450 triangles) in 0 ms.
+2014-02-22T16:08:16.844199Z <001>    14 MB warning | while loading mesh object "_Home_set_01_geo_back_roof_Home_set_01_geo_back_roofShape.0": 16 polygonal faces (out of 69) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T16:08:16.844231Z <001>    14 MB warning | while loading mesh object "_Home_set_01_geo_back_roof_Home_set_01_geo_back_roofShape.0": 64 normal vectors (out of 224) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T16:08:16.844271Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_back_roofShape_79_6.obj (1 object, 80 vertices, 138 triangles) in 0 ms.
+2014-02-22T16:08:16.844450Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_cooker_frontShape_80_6.obj (1 object, 78 vertices, 130 triangles) in 0 ms.
+2014-02-22T16:08:16.844668Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_cooker_topShape_81_6.obj (1 object, 132 vertices, 188 triangles) in 0 ms.
+2014-02-22T16:08:16.844797Z <001>    14 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kfc_roofShape_82_6.obj (1 object, 30 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.845121Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kfc_wallShape_83_6.obj (1 object, 167 vertices, 285 triangles) in 0 ms.
+2014-02-22T16:08:16.845251Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_cupboardsShape_84_6.obj (1 object, 30 vertices, 38 triangles) in 0 ms.
+2014-02-22T16:08:16.845397Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape1_85_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.845520Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape2_86_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.845649Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape3_87_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.845769Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape4_88_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.845885Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape5_89_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.846004Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape6_90_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.846123Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_door_knob_Shape7_91_6.obj (1 object, 25 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.846228Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_kitchen_wall_tilesShape_92_6.obj (1 object, 12 vertices, 13 triangles) in 0 ms.
+2014-02-22T16:08:16.846367Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshade1Shape_93_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T16:08:16.846504Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshadeShape2_94_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T16:08:16.846641Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_geo_lampshadeShape3_95_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T16:08:16.846802Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape1_96_6.obj (1 object, 64 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.846902Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape2_97_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.847001Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape3_98_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.847100Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_glassShape4_99_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.847243Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape1_100_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T16:08:16.847396Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape2_101_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T16:08:16.847544Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_gtech_hdd_geo_gtech_hdd_0Shape3_102_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T16:08:16.847771Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitar_cappoShape_105_6.obj (1 object, 86 vertices, 164 triangles) in 0 ms.
+2014-02-22T16:08:16.848797Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitarShape_104_6.obj (1 object, 742 vertices, 1,268 triangles) in 1 ms.
+2014-02-22T16:08:16.849007Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_guitar1_geo_guitar_stringShape_103_6.obj (1 object, 102 vertices, 200 triangles) in 0 ms.
+2014-02-22T16:08:16.849229Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kettle1_geo_kettleShape_106_6.obj (1 object, 110 vertices, 196 triangles) in 0 ms.
+2014-02-22T16:08:16.849636Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kettle1_geo_kettle_baseShape_107_6.obj (1 object, 261 vertices, 486 triangles) in 0 ms.
+2014-02-22T16:08:16.849773Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_keyboard_geo_keyboardShape_108_6.obj (1 object, 28 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.849913Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_drimstick_meatShape_111_6.obj (1 object, 41 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.850057Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_drimstick_boneShape_110_6.obj (1 object, 42 vertices, 80 triangles) in 0 ms.
+2014-02-22T16:08:16.850309Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_chipsShape_112_6.obj (1 object, 120 vertices, 216 triangles) in 0 ms.
+2014-02-22T16:08:16.850448Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_boxShape_109_6.obj (1 object, 35 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.850579Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_pepsi_strawShape_114_6.obj (1 object, 30 vertices, 50 triangles) in 0 ms.
+2014-02-22T16:08:16.850782Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_kfc_box_geo_kfc_pepsiShape_113_6.obj (1 object, 86 vertices, 168 triangles) in 0 ms.
+2014-02-22T16:08:16.851377Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_knife_block_geo_knife_blockShape_115_6.obj (1 object, 374 vertices, 705 triangles) in 1 ms.
+2014-02-22T16:08:16.851551Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape1_116_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.851771Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape2_117_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.851956Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lampshade_chord_Shape3_118_6.obj (1 object, 32 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.852170Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_polySurfaceShape2_121_6.obj (1 object, 49 vertices, 74 triangles) in 0 ms.
+2014-02-22T16:08:16.852265Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pPlaneShape1_122_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.852394Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape2_120_6.obj (1 object, 24 vertices, 44 triangles) in 0 ms.
+2014-02-22T16:08:16.852498Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape3_123_373.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T16:08:16.852656Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_pCubeShape1_119_6.obj (1 object, 32 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.852979Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_speaker_geo_speakerShape_124_6.obj (1 object, 186 vertices, 355 triangles) in 0 ms.
+2014-02-22T16:08:16.853303Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_laptop_speaker1_geo_speakerShape_125_6.obj (1 object, 186 vertices, 355 triangles) in 0 ms.
+2014-02-22T16:08:16.853434Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lloyds_grossman_jar_geo_lloyds_grossman_jar_lidShape_127_6.obj (1 object, 25 vertices, 40 triangles) in 0 ms.
+2014-02-22T16:08:16.853626Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_lloyds_grossman_jar_geo_lloyds_grossman_jarShape_126_6.obj (1 object, 89 vertices, 168 triangles) in 0 ms.
+2014-02-22T16:08:16.854255Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_man_master_costume_01_clothesShape_129_373.obj (1 object, 469 vertices, 914 triangles) in 1 ms.
+2014-02-22T16:08:16.855365Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_man_master_costume_01_skinShape_130_373.obj (1 object, 982 vertices, 1,800 triangles) in 1 ms.
+2014-02-22T16:08:16.855697Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_bagShape_145_6.obj (1 object, 236 vertices, 450 triangles) in 0 ms.
+2014-02-22T16:08:16.855862Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_strawShape_147_6.obj (1 object, 30 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.856060Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_mcdonnalds_bag_geo_mcdonnalds_cokeShape_146_6.obj (1 object, 62 vertices, 120 triangles) in 0 ms.
+2014-02-22T16:08:16.856243Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_microwave_geo_microwaveShape_148_6.obj (1 object, 68 vertices, 132 triangles) in 0 ms.
+2014-02-22T16:08:16.856382Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape2_150_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.856518Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape1_151_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.856655Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape5_152_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.856789Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape4_153_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.856926Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_wheel_Shape3_154_6.obj (1 object, 30 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.857532Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_seatShape_155_6.obj (1 object, 468 vertices, 878 triangles) in 1 ms.
+2014-02-22T16:08:16.857866Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_office_chair1_geo_office_chair_baseShape_149_6.obj (1 object, 204 vertices, 380 triangles) in 0 ms.
+2014-02-22T16:08:16.857972Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape23_156_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.858077Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape24_157_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.858167Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape32_158_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.858294Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape33_159_6.obj (1 object, 25 vertices, 30 triangles) in 0 ms.
+2014-02-22T16:08:16.858455Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape34_160_6.obj (1 object, 59 vertices, 82 triangles) in 0 ms.
+2014-02-22T16:08:16.858706Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape40_161_6.obj (1 object, 156 vertices, 300 triangles) in 0 ms.
+2014-02-22T16:08:16.858810Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape58_162_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.858923Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape59_163_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T16:08:16.859056Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape60_164_6.obj (1 object, 34 vertices, 52 triangles) in 0 ms.
+2014-02-22T16:08:16.859167Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape64_165_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.859294Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape65_166_6.obj (1 object, 28 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.859467Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape67_167_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.859640Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape68_168_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.859741Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape72_169_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.859882Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape73_170_6.obj (1 object, 40 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.859984Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape74_171_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T16:08:16.860151Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape75_172_6.obj (1 object, 62 vertices, 120 triangles) in 0 ms.
+2014-02-22T16:08:16.860263Z <001>    15 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape76_173_6.obj (1 object, 18 vertices, 26 triangles) in 0 ms.
+2014-02-22T16:08:16.860511Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape77_174_6.obj (1 object, 112 vertices, 220 triangles) in 0 ms.
+2014-02-22T16:08:16.860616Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape78_175_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.860721Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape79_176_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.860820Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape80_177_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.860921Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape81_178_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.861020Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape82_179_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.861120Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape83_180_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.861219Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape84_181_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.861317Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape85_182_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.861433Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape86_183_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.861581Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape89_184_6.obj (1 object, 48 vertices, 92 triangles) in 0 ms.
+2014-02-22T16:08:16.861677Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape98_185_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T16:08:16.861769Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape99_186_6.obj (1 object, 6 vertices, 4 triangles) in 0 ms.
+2014-02-22T16:08:16.861867Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape101_187_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T16:08:16.862009Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape104_188_6.obj (1 object, 41 vertices, 64 triangles) in 0 ms.
+2014-02-22T16:08:16.862109Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape105_189_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.862210Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape108_190_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.862318Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape109_191_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T16:08:16.862415Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape110_192_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.862512Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape111_193_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.862611Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape112_194_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.863214Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape115_195_6.obj (1 object, 353 vertices, 640 triangles) in 1 ms.
+2014-02-22T16:08:16.863318Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape117_196_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.863421Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape119_197_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.863520Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape120_198_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T16:08:16.863619Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape121_199_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T16:08:16.863717Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape123_200_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.863815Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape124_201_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.863915Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape125_202_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864010Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape126_203_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864108Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape127_204_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864205Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape140_205_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864303Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape141_206_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864407Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape142_207_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864503Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape143_208_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864601Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape146_209_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864699Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape147_210_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864795Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape153_211_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.864930Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape158_212_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.865064Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape159_213_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.865196Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape160_214_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.865328Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape161_215_6.obj (1 object, 36 vertices, 72 triangles) in 0 ms.
+2014-02-22T16:08:16.865441Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape172_216_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.865554Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape187_217_6.obj (1 object, 8 vertices, 12 triangles) in 0 ms.
+2014-02-22T16:08:16.865648Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape188_218_6.obj (1 object, 8 vertices, 6 triangles) in 0 ms.
+2014-02-22T16:08:16.865767Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape189_219_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.865875Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape190_220_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.865980Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape191_221_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.866130Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape192_222_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.866281Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape193_223_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.866401Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape194_224_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.866620Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape195_225_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.866781Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape196_226_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.866938Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape197_227_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.867099Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape198_228_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.867216Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape199_229_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.867374Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape200_230_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.867484Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape201_231_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.867591Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape202_232_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.867771Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape203_233_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.867892Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape204_234_6.obj (1 object, 24 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.867999Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape205_235_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.868137Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape206_236_6.obj (1 object, 16 vertices, 24 triangles) in 0 ms.
+2014-02-22T16:08:16.868291Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape207_237_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.868443Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape208_238_6.obj (1 object, 54 vertices, 104 triangles) in 0 ms.
+2014-02-22T16:08:16.868542Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape209_239_6.obj (1 object, 8 vertices, 10 triangles) in 0 ms.
+2014-02-22T16:08:16.868661Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCubeShape210_240_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.868860Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape3_241_6.obj (1 object, 86 vertices, 168 triangles) in 0 ms.
+2014-02-22T16:08:16.868985Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape4_242_6.obj (1 object, 20 vertices, 34 triangles) in 0 ms.
+2014-02-22T16:08:16.869104Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape5_243_6.obj (1 object, 18 vertices, 32 triangles) in 0 ms.
+2014-02-22T16:08:16.869259Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape14_244_6.obj (1 object, 61 vertices, 115 triangles) in 0 ms.
+2014-02-22T16:08:16.869385Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape20_245_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.869510Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pCylinderShape21_246_6.obj (1 object, 20 vertices, 36 triangles) in 0 ms.
+2014-02-22T16:08:16.869623Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape11_247_6.obj (1 object, 24 vertices, 22 triangles) in 0 ms.
+2014-02-22T16:08:16.869788Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape12_248_6.obj (1 object, 94 vertices, 92 triangles) in 0 ms.
+2014-02-22T16:08:16.869880Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape14_249_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.869970Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape17_250_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870057Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape18_251_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870144Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape19_252_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870231Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape20_253_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870326Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape21_254_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870413Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape22_255_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870501Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape23_256_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870589Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape25_257_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870693Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape26_258_6.obj (1 object, 14 vertices, 16 triangles) in 0 ms.
+2014-02-22T16:08:16.870781Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape27_259_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870868Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape28_260_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.870958Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape29_261_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.871045Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape30_262_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.871131Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape31_263_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.871219Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape32_264_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.871304Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape33_265_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.871484Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape34_266_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.871663Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape35_267_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.871842Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape38_268_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.872022Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape39_269_6.obj (1 object, 72 vertices, 140 triangles) in 0 ms.
+2014-02-22T16:08:16.872278Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pPlaneShape40_270_6.obj (1 object, 170 vertices, 270 triangles) in 0 ms.
+2014-02-22T16:08:16.873135Z <001>    16 MB warning | while loading mesh object "_Home_set_01_pasted__polySurface2_Home_set_01_pasted__polySurfaceShape2.0": 1 normal vector (out of 1,580) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T16:08:16.873169Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_pasted__polySurfaceShape2_271_6.obj (1 object, 476 vertices, 924 triangles) in 1 ms.
+2014-02-22T16:08:16.873287Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape13_272_6.obj (1 object, 20 vertices, 18 triangles) in 0 ms.
+2014-02-22T16:08:16.873387Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape3_273_6.obj (1 object, 6 vertices, 4 triangles) in 0 ms.
+2014-02-22T16:08:16.873558Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape19_274_6.obj (1 object, 71 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.873678Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape41_275_6.obj (1 object, 24 vertices, 30 triangles) in 0 ms.
+2014-02-22T16:08:16.873786Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape46_276_6.obj (1 object, 10 vertices, 8 triangles) in 0 ms.
+2014-02-22T16:08:16.873906Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape49_277_6.obj (1 object, 24 vertices, 34 triangles) in 0 ms.
+2014-02-22T16:08:16.874294Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape22_278_6.obj (1 object, 314 vertices, 450 triangles) in 0 ms.
+2014-02-22T16:08:16.874487Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape61_279_6.obj (1 object, 96 vertices, 144 triangles) in 0 ms.
+2014-02-22T16:08:16.874828Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape123_280_6.obj (1 object, 176 vertices, 332 triangles) in 0 ms.
+2014-02-22T16:08:16.874977Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape53_281_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.875121Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape54_282_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.875265Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape55_283_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.875458Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape56_284_6.obj (1 object, 120 vertices, 138 triangles) in 0 ms.
+2014-02-22T16:08:16.875635Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape91_285_6.obj (1 object, 86 vertices, 120 triangles) in 0 ms.
+2014-02-22T16:08:16.875778Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape59_286_6.obj (1 object, 40 vertices, 60 triangles) in 0 ms.
+2014-02-22T16:08:16.875957Z <001>    16 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape115_287_6.obj (1 object, 92 vertices, 134 triangles) in 0 ms.
+2014-02-22T16:08:16.876841Z <001>    17 MB warning | while loading mesh object "_Home_set_01_polySurface66_Home_set_01_polySurfaceShape125.0": 12 polygonal faces (out of 536) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T16:08:16.876864Z <001>    17 MB warning | while loading mesh object "_Home_set_01_polySurface66_Home_set_01_polySurfaceShape125.0": 51 normal vectors (out of 1,938) were null and have been replaced by arbitrary unit-length vectors.
+2014-02-22T16:08:16.876892Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_polySurfaceShape125_288_6.obj (1 object, 586 vertices, 1,054 triangles) in 1 ms.
+2014-02-22T16:08:16.877070Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_frying_panShape_289_6.obj (1 object, 64 vertices, 120 triangles) in 0 ms.
+2014-02-22T16:08:16.877309Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_milk_panShape_290_6.obj (1 object, 116 vertices, 208 triangles) in 0 ms.
+2014-02-22T16:08:16.877540Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_panShape_291_6.obj (1 object, 94 vertices, 184 triangles) in 0 ms.
+2014-02-22T16:08:16.877734Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pan_lidShape_292_6.obj (1 object, 86 vertices, 160 triangles) in 0 ms.
+2014-02-22T16:08:16.878033Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pasta_panShape_293_6.obj (1 object, 194 vertices, 368 triangles) in 0 ms.
+2014-02-22T16:08:16.878312Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_pots_and_pans_geo_pasta_pan_lidShape_294_6.obj (1 object, 144 vertices, 280 triangles) in 0 ms.
+2014-02-22T16:08:16.879739Z <001>    17 MB warning | while loading mesh object "_Home_set_01_radiator1_geo_radiator_Home_set_01_radiator1_geo_radiatorShape.0": 1 polygonal face (out of 1,063) could not be triangulated and have been replaced by zero-area triangles.
+2014-02-22T16:08:16.879783Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radiator1_geo_radiatorShape_295_6.obj (1 object, 1,134 vertices, 2,200 triangles) in 1 ms.
+2014-02-22T16:08:16.879924Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_aerialShape_298_6.obj (1 object, 36 vertices, 68 triangles) in 0 ms.
+2014-02-22T16:08:16.880034Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_aerial_twistShape_297_6.obj (1 object, 12 vertices, 20 triangles) in 0 ms.
+2014-02-22T16:08:16.880224Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_radio1_geo_radio_bodyShape_296_6.obj (1 object, 99 vertices, 136 triangles) in 0 ms.
+2014-02-22T16:08:16.880408Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_scissors_geo_scissors_topShape_300_373.obj (1 object, 72 vertices, 144 triangles) in 0 ms.
+2014-02-22T16:08:16.880601Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_scissors_geo_scissors_bottomShape_299_6.obj (1 object, 81 vertices, 158 triangles) in 0 ms.
+2014-02-22T16:08:16.880716Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_shoe_box_geo_shoe_boxShape_301_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T16:08:16.880830Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_shoe_box_geo_shoe_box_1Shape_302_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T16:08:16.881850Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_skateboard1_geo_skateboard_mainShape_303_6.obj (1 object, 784 vertices, 1,476 triangles) in 1 ms.
+2014-02-22T16:08:16.883539Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_sofa1_geo_sofaShape_304_6.obj (1 object, 1,551 vertices, 3,086 triangles) in 2 ms.
+2014-02-22T16:08:16.884125Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toaster1_geo_toasterShape_305_6.obj (1 object, 475 vertices, 862 triangles) in 1 ms.
+2014-02-22T16:08:16.884247Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_doorShape_307_6.obj (1 object, 18 vertices, 28 triangles) in 0 ms.
+2014-02-22T16:08:16.884367Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_handleShape_308_6.obj (1 object, 24 vertices, 40 triangles) in 0 ms.
+2014-02-22T16:08:16.884502Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_hingeShape_309_6.obj (1 object, 28 vertices, 48 triangles) in 0 ms.
+2014-02-22T16:08:16.884624Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolbox_handle_chromeShape_310_6.obj (1 object, 16 vertices, 20 triangles) in 0 ms.
+2014-02-22T16:08:16.884806Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_toolbox_geo_toolboxShape_306_6.obj (1 object, 16 vertices, 28 triangles) in 0 ms.
+2014-02-22T16:08:16.885063Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_wacom_tablet_geo_wacom_tabletShape_311_6.obj (1 object, 56 vertices, 108 triangles) in 0 ms.
+2014-02-22T16:08:16.885493Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_wishbone_chair1_polySurfaceShape3_312_6.obj (1 object, 274 vertices, 480 triangles) in 0 ms.
+2014-02-22T16:08:16.885649Z <001>    17 MB info    | loaded mesh file ./_geometry/Home_set_01_wacom_tablet_geo_wacom_penShape_313_6.obj (1 object, 52 vertices, 100 triangles) in 0 ms.
+2014-02-22T16:08:16.885739Z <001>    17 MB info    | loaded mesh file ./_geometry/maya_area_light.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.885829Z <001>    17 MB info    | loaded mesh file ./_geometry/pPlaneShape1_314_373.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.885921Z <001>    17 MB info    | loaded mesh file ./_geometry/pPlaneShape4_315_6.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.886004Z <001>    17 MB info    | loaded mesh file ./_geometry/maya_area_light.obj (1 object, 4 vertices, 2 triangles) in 0 ms.
+2014-02-22T16:08:16.909367Z <001>    18 MB info    | scene bounding box: (-998.657776, -1779.792114, -886.205139)-(714.439453, 819.048828, 1213.115356).
+2014-02-22T16:08:16.909367Z <001>    18 MB info    | scene diameter: 4748.316123.
+2014-02-22T16:08:16.910027Z <001>    18 MB info    | migrating project format from revision 2 to revision 3...
+2014-02-22T16:08:16.910056Z <001>    18 MB info    | migrating project format from revision 3 to revision 4...
+2014-02-22T16:08:16.910082Z <001>    18 MB info    | migrating project format from revision 4 to revision 5...
+2014-02-22T16:08:16.910098Z <001>    18 MB info    | migrating project format from revision 5 to revision 6...
+2014-02-22T16:08:16.910158Z <001>    18 MB info    | migrating project format from revision 6 to revision 7...
+2014-02-22T16:08:16.910448Z <001>    18 MB info    | successfully loaded project file ./13_00_01.0373.appleseed.jonathans-mbp-2_lan in 109 ms (0 error, 0 warning).
+2014-02-22T16:08:16.910762Z <001>    18 MB info    | rendering frame...
+2014-02-22T16:08:16.912368Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.912643Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.912728Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.912807Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.912880Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.912952Z <001>    18 MB info    | opening texture file ./_textures/coke_can_diff.exr for reading...
+2014-02-22T16:08:16.913030Z <001>    18 MB info    | opening texture file ./_textures/cutting_mat.exr for reading...
+2014-02-22T16:08:16.913147Z <001>    18 MB info    | opening texture file ./_textures/dish_cloth_01.exr for reading...
+2014-02-22T16:08:16.913236Z <001>    18 MB info    | opening texture file ./_textures/double_bed.exr for reading...
+2014-02-22T16:08:16.913313Z <001>    18 MB info    | opening texture file ./_textures/files_diff.exr for reading...
+2014-02-22T16:08:16.913447Z <001>    18 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T16:08:16.913529Z <001>    18 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T16:08:16.913620Z <001>    18 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T16:08:16.913704Z <001>    18 MB info    | opening texture file ./_textures/roof_tiles_01.exr for reading...
+2014-02-22T16:08:16.913789Z <001>    18 MB info    | opening texture file ./_textures/kfc.exr for reading...
+2014-02-22T16:08:16.913939Z <001>    18 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T16:08:16.914015Z <001>    18 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T16:08:16.914088Z <001>    18 MB info    | opening texture file ./_textures/guitar_diff.exr for reading...
+2014-02-22T16:08:16.914238Z <001>    18 MB info    | opening texture file ./_textures/kfc_pepsi_diff.exr for reading...
+2014-02-22T16:08:16.914427Z <001>    18 MB info    | opening texture file ./_textures/face.exr for reading...
+2014-02-22T16:08:16.914501Z <001>    18 MB info    | opening texture file ./_textures/mc_connalds_bag.exr for reading...
+2014-02-22T16:08:16.914594Z <001>    18 MB info    | opening texture file ./_textures/mc_connalds_bag.exr for reading...
+2014-02-22T16:08:16.914706Z <001>    18 MB info    | opening texture file ./_textures/office_chair.exr for reading...
+2014-02-22T16:08:16.914784Z <001>    18 MB info    | opening texture file ./_textures/house_front_side.exr for reading...
+2014-02-22T16:08:16.914890Z <001>    18 MB info    | opening texture file ./_textures/kfc.exr for reading...
+2014-02-22T16:08:16.915007Z <001>    18 MB info    | opening texture file ./_textures/post_office.exr for reading...
+2014-02-22T16:08:16.915077Z <001>    18 MB info    | opening texture file ./_textures/aircon_wall.exr for reading...
+2014-02-22T16:08:16.915250Z <001>    18 MB info    | opening texture file ./_textures/chimney_pot.exr for reading...
+2014-02-22T16:08:16.915323Z <001>    19 MB info    | opening texture file ./_textures/back_wall.exr for reading...
+2014-02-22T16:08:16.915433Z <001>    19 MB info    | opening texture file ./_textures/kitchen_surface_diff.exr for reading...
+2014-02-22T16:08:16.915514Z <001>    19 MB info    | opening texture file ./_textures/carpet_01.exr for reading...
+2014-02-22T16:08:16.915594Z <001>    19 MB info    | opening texture file ./_textures/wooden_shelf.exr for reading...
+2014-02-22T16:08:16.915668Z <001>    19 MB info    | opening texture file ./_textures/carpet.exr for reading...
+2014-02-22T16:08:16.915755Z <001>    19 MB info    | opening texture file ./_textures/curtains_diff.exr for reading...
+2014-02-22T16:08:16.915840Z <001>    19 MB info    | opening texture file ./_textures/back_brick_wall.exr for reading...
+2014-02-22T16:08:16.916063Z <001>    19 MB info    | opening texture file ./_textures/shoe_box.exr for reading...
+2014-02-22T16:08:16.916140Z <001>    19 MB info    | opening texture file ./_textures/skateboard.exr for reading...
+2014-02-22T16:08:16.916214Z <001>    19 MB info    | opening texture file ./_textures/skateboard.exr for reading...
+2014-02-22T16:08:16.916296Z <001>    19 MB info    | opening texture file ./_textures/sofa_diff.exr for reading...
+2014-02-22T16:08:16.916366Z <001>    19 MB info    | opening texture file ./_textures/sofa_spec.exr for reading...
+2014-02-22T16:08:16.916433Z <001>    19 MB info    | opening texture file ./_textures/sofa_cushion_diff.exr for reading...
+2014-02-22T16:08:16.916501Z <001>    19 MB info    | opening texture file ./_textures/sofa_cushion_spec.exr for reading...
+2014-02-22T16:08:16.916625Z <001>    19 MB info    | opening texture file ./_textures/chair_tex.exr for reading...
+2014-02-22T16:08:16.916700Z <001>    19 MB info    | opening texture file ./_textures/chair_tex.exr for reading...
+2014-02-22T16:08:16.916777Z <001>    19 MB info    | opening texture file ./_textures/laptop_screen_diff.exr for reading...
+2014-02-22T16:08:16.918536Z <001>    19 MB debug   | assigning entity "Home_set_01_laptop_light_mat_laptop_screen_edf" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission" (via rule "scene_root_assembly_Home_set_01_laptop_light_mat_laptop_screen_edf").
+2014-02-22T16:08:16.918565Z <001>    19 MB debug   | assigning entity "_laptop_fill_laptop_fillShape_edf" to render layer "_laptop_fill_laptop_fillShape" (via rule "scene_root_assembly__laptop_fill_laptop_fillShape_edf").
+2014-02-22T16:08:16.918584Z <001>    19 MB debug   | assigning entity "light_sky_edf" to render layer "light_skylight_emission" (via rule "scene_root_assembly_light_sky_edf").
+2014-02-22T16:08:16.918602Z <001>    19 MB debug   | assigning entity "light_mat_sun_fill_edf" to render layer "light_mat_sun_filllight_emission" (via rule "scene_root_assembly_light_mat_sun_fill_edf").
+2014-02-22T16:08:16.918619Z <001>    19 MB debug   | assigning entity "_sun_sunShape_edf" to render layer "_sun_sunShape" (via rule "scene_root_assembly__sun_sunShape_edf").
+2014-02-22T16:08:16.923747Z <001>    19 MB debug   | assigning entity "Home_set_01_constant_surface_shader" to render layer "window_matte" (via rule "scene_root_assembly_Home_set_01_constant_surface_shader").
+2014-02-22T16:08:16.923908Z <001>    19 MB debug   | assigning entity "Home_set_01_laptop_light_mat_laptop_screen_surface_shader" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission" (via rule "scene_root_assembly_Home_set_01_laptop_light_mat_laptop_screen_surface_shader").
+2014-02-22T16:08:16.923923Z <001>    19 MB error   | while assigning entity "Home_set_01_laptop_light_mat_laptop_screen_surface_shader" to render layer "Home_set_01_laptop_light_mat_laptop_screenlight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T16:08:16.924408Z <001>    19 MB debug   | assigning entity "light_sky_surface_shader" to render layer "light_skylight_emission" (via rule "scene_root_assembly_light_sky_surface_shader").
+2014-02-22T16:08:16.924421Z <001>    19 MB error   | while assigning entity "light_sky_surface_shader" to render layer "light_skylight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T16:08:16.924440Z <001>    19 MB debug   | assigning entity "light_mat_sun_fill_surface_shader" to render layer "light_mat_sun_filllight_emission" (via rule "scene_root_assembly_light_mat_sun_fill_surface_shader").
+2014-02-22T16:08:16.924452Z <001>    19 MB error   | while assigning entity "light_mat_sun_fill_surface_shader" to render layer "light_mat_sun_filllight_emission": lights/edfs and objects/materials/instances cannot be assigned to the same render layer.
+2014-02-22T16:08:16.924473Z <001>    19 MB info    | frame settings:
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   resolution       1,024 x 1,024
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   tile size        64 x 64
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   pixel format     half
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   filter           gaussian
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   filter size      2.000000
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   color space      srgb
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   premult. alpha   off
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   clamping         off
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   gamma correction 1.000000
+2014-02-22T16:08:16.924473Z <001>    19 MB info    |   crop window      (0, 0)-(1,024, 1,024)
+2014-02-22T16:08:16.924790Z <001>    19 MB info    | building assembly tree (1 assembly instance)...
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   | assembly tree statistics:
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   build time       0 ms
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   size             296 bytes
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   nodes            total 1  interior 0  leaves 1
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   leaf volume      100.0%
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   leaf depth       avg 1.0  min 1  max 1  dev 0.0
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   leaf size        avg 1.0  min 1  max 1  dev 0.0
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   sibling overlap  avg 0.0%  min 0.0%  max 0.0%  dev 0.0%
+2014-02-22T16:08:16.925120Z <001>    19 MB debug   |   fat leaves       100.0%
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   | data structures size:
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   bvh::NodeType    128 bytes
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   GTriangleType    36 bytes
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   RegionInfo       32 bytes
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   ShadingPoint     1.1 KB
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   ShadingRay       80 bytes
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   ShadingResult    2.4 KB
+2014-02-22T16:08:16.925639Z <001>    19 MB debug   |   TriangleKey      12 bytes
+2014-02-22T16:08:16.925681Z <001>    19 MB info    | collecting light emitters...
+2014-02-22T16:08:16.925766Z <001>    19 MB info    | found 0 non-physical light, 10 emitting triangles.
+2014-02-22T16:08:16.925797Z <001>    19 MB info    | path tracing settings:
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   direct lighting  on
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   ibl              on
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   caustics         off
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   max path length  4
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   rr min path len. 3
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   next event est.  on
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   dl light samples 6.0
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   ibl env samples  1.0
+2014-02-22T16:08:16.925797Z <001>    19 MB info    |   max ray intens.  infinite
+2014-02-22T16:08:16.925904Z <001>    19 MB debug   | the scene uses alpha mapping; using standard tracing.
+2014-02-22T16:08:16.925931Z <001>    19 MB info    | rendering effort wasted by tile borders: 12.9% (tile dimensions: 64 x 64, tile margins: 4 x 4)
+2014-02-22T16:08:16.927414Z <001>    20 MB info    | using 8 threads for rendering.
+2014-02-22T16:08:16.927457Z <001>    20 MB info    | camera settings:
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   model            thinlens_camera
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   film width       2.399995
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   film height      2.399995
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   focal length     6.312673
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   autofocus        off
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   autofocus target 0.500000, 0.500000
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   focal distance   435.000000
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   diaphragm blades 0
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   diaphragm angle  0.000000
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   shutter open     0.000000
+2014-02-22T16:08:16.927457Z <001>    20 MB info    |   shutter close    1.000000
+2014-02-22T16:08:16.927956Z <001>    20 MB warning | while defining material "scene/root_assembly/_laptop_fill_laptop_fillShape_material": material is emitting light but may be partially or entirely transparent; this may lead to unexpected or unphysical results.
+2014-02-22T16:08:16.927978Z <001>    20 MB warning | while defining material "scene/root_assembly/_sun_sunShape_material": material is emitting light but may be partially or entirely transparent; this may lead to unexpected or unphysical results.
+2014-02-22T16:08:16.929074Z <002>    25 MB info    | collecting geometry for triangle tree #1778 from assembly "root_assembly" (302 regions)...
+2014-02-22T16:08:16.935900Z <002>    31 MB info    | building bvh triangle tree #1778 (48,942 static triangles, 0 moving triangle)...
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   | triangle tree #1778 statistics:
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   size             6.0 MB
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   nodes            total 43,033  interior 21,516  leaves 21,517
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   leaf volume      9.9%
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   leaf depth       avg 19.3  min 6  max 27  dev 2.9
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   leaf size        avg 2.3  min 1  max 12  dev 1.1
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   sibling overlap  avg 28.4%  min 0.0%  max 100.0%  dev 34.3%
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   fat leaves       82.8%
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   collection time  7 ms
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   partition time   74 ms
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   store time       17 ms
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   nodes alignment  64 bytes
+2014-02-22T16:08:17.035448Z <002>    40 MB debug   |   total time       106 ms
+2014-02-22T16:08:17.035810Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass2_Home_set_01_glassShape2.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T16:08:17.035835Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass1_Home_set_01_glassShape1.0" with 1 material (masks: 41 bytes, uvs: 2.3 KB).
+2014-02-22T16:08:17.035852Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass3_Home_set_01_glassShape3.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T16:08:17.035868Z <002>    40 MB debug   | created intersection filter for object "_Home_set_01_glass4_Home_set_01_glassShape4.0" with 1 material (masks: 41 bytes, uvs: 288 bytes).
+2014-02-22T16:08:17.035911Z <002>    40 MB debug   | created intersection filter for object "_laptop_fill_laptop_fillShape.0" with 1 material (masks: 41 bytes, uvs: 48 bytes).
+2014-02-22T16:08:17.035928Z <002>    40 MB debug   | created intersection filter for object "_sun_sunShape.0" with 1 material (masks: 41 bytes, uvs: 48 bytes).
+2014-02-22T16:08:34.942522Z <002>    45 MB info    | rendering, 0.4% done
+2014-02-22T16:08:34.965561Z <003>    45 MB info    | rendering, 0.8% done
+2014-02-22T16:08:35.039774Z <004>    46 MB info    | rendering, 1.2% done
+2014-02-22T16:08:35.078145Z <005>    46 MB info    | rendering, 1.6% done
+2014-02-22T16:08:35.196215Z <006>    46 MB info    | rendering, 2.0% done
+2014-02-22T16:08:35.221691Z <007>    46 MB info    | rendering, 2.3% done
+2014-02-22T16:08:35.226517Z <008>    46 MB info    | rendering, 2.7% done
+2014-02-22T16:08:35.255254Z <009>    47 MB info    | rendering, 3.1% done
+2014-02-22T16:08:53.322728Z <002>    47 MB info    | rendering, 3.5% done
+2014-02-22T16:08:53.360889Z <006>    48 MB info    | rendering, 3.9% done
+2014-02-22T16:08:53.362998Z <004>    48 MB info    | rendering, 4.3% done
+2014-02-22T16:08:53.366460Z <005>    48 MB info    | rendering, 4.7% done
+2014-02-22T16:08:53.411610Z <003>    48 MB info    | rendering, 5.1% done
+2014-02-22T16:08:53.459043Z <009>    48 MB info    | rendering, 5.5% done
+2014-02-22T16:08:53.686516Z <008>    49 MB info    | rendering, 5.9% done
+2014-02-22T16:08:53.736215Z <007>    49 MB info    | rendering, 6.2% done
+2014-02-22T16:09:10.320507Z <006>    50 MB info    | rendering, 6.6% done
+2014-02-22T16:09:10.356903Z <002>    50 MB info    | rendering, 7.0% done
+2014-02-22T16:09:49.014849Z <005>    50 MB info    | rendering, 7.4% done
+2014-02-22T16:09:50.183003Z <004>    51 MB info    | rendering, 7.8% done
+2014-02-22T16:10:08.404395Z <009>    51 MB info    | rendering, 8.2% done
+2014-02-22T16:10:14.283829Z <003>    51 MB info    | rendering, 8.6% done
+2014-02-22T16:10:18.336881Z <007>    51 MB info    | rendering, 9.0% done
+2014-02-22T16:10:19.541759Z <008>    51 MB info    | rendering, 9.4% done
+2014-02-22T16:10:34.210714Z <002>    52 MB info    | rendering, 9.8% done
+2014-02-22T16:10:35.290789Z <007>    52 MB info    | rendering, 10.2% done
+2014-02-22T16:10:35.865321Z <006>    52 MB info    | rendering, 10.5% done
+2014-02-22T16:10:36.612096Z <008>    52 MB info    | rendering, 10.9% done
+2014-02-22T16:10:51.611889Z <002>    53 MB info    | rendering, 11.3% done
+2014-02-22T16:10:52.876028Z <007>    53 MB info    | rendering, 11.7% done
+2014-02-22T16:11:06.567458Z <005>    53 MB info    | rendering, 12.1% done
+2014-02-22T16:11:06.598246Z <009>    53 MB info    | rendering, 12.5% done
+2014-02-22T16:11:11.628665Z <003>    54 MB info    | rendering, 12.9% done
+2014-02-22T16:11:15.313036Z <004>    54 MB info    | rendering, 13.3% done
+2014-02-22T16:11:29.696453Z <006>    54 MB info    | rendering, 13.7% done
+2014-02-22T16:11:36.108103Z <008>    54 MB info    | rendering, 14.1% done
+2014-02-22T16:12:07.421542Z <003>    54 MB info    | rendering, 14.5% done
+2014-02-22T16:12:13.376286Z <009>    55 MB info    | rendering, 14.8% done
+2014-02-22T16:12:15.778372Z <007>    55 MB info    | rendering, 15.2% done
+2014-02-22T16:12:16.858528Z <002>    55 MB info    | rendering, 15.6% done
+2014-02-22T16:12:19.883617Z <006>    55 MB info    | rendering, 16.0% done
+2014-02-22T16:12:26.134684Z <004>    56 MB info    | rendering, 16.4% done
+2014-02-22T16:12:26.747226Z <005>    56 MB info    | rendering, 16.8% done
+2014-02-22T16:12:31.573604Z <008>    56 MB info    | rendering, 17.2% done
+2014-02-22T16:12:35.147090Z <007>    56 MB info    | rendering, 17.6% done
+2014-02-22T16:12:36.639820Z <002>    56 MB info    | rendering, 18.0% done
+2014-02-22T16:12:37.925976Z <006>    57 MB info    | rendering, 18.4% done
+2014-02-22T16:12:44.469045Z <004>    57 MB info    | rendering, 18.8% done
+2014-02-22T16:12:45.271864Z <005>    57 MB info    | rendering, 19.1% done
+2014-02-22T16:12:46.613371Z <003>    57 MB info    | rendering, 19.5% done
+2014-02-22T16:12:50.469757Z <008>    58 MB info    | rendering, 19.9% done
+2014-02-22T16:12:54.193157Z <007>    58 MB info    | rendering, 20.3% done
+2014-02-22T16:12:54.935802Z <009>    58 MB info    | rendering, 20.7% done
+2014-02-22T16:12:55.350125Z <002>    58 MB info    | rendering, 21.1% done
+2014-02-22T16:12:56.888276Z <006>    58 MB info    | rendering, 21.5% done
+2014-02-22T16:13:03.613849Z <004>    59 MB info    | rendering, 21.9% done
+2014-02-22T16:13:04.456808Z <005>    59 MB info    | rendering, 22.3% done
+2014-02-22T16:13:05.428673Z <003>    59 MB info    | rendering, 22.7% done
+2014-02-22T16:13:08.847003Z <008>    59 MB info    | rendering, 23.0% done
+2014-02-22T16:13:12.508875Z <007>    60 MB info    | rendering, 23.4% done
+2014-02-22T16:13:13.225016Z <009>    60 MB info    | rendering, 23.8% done
+2014-02-22T16:13:13.785110Z <002>    60 MB info    | rendering, 24.2% done
+2014-02-22T16:13:15.708831Z <006>    60 MB info    | rendering, 24.6% done
+2014-02-22T16:13:22.591167Z <004>    61 MB info    | rendering, 25.0% done
+2014-02-22T16:13:23.785938Z <005>    61 MB info    | rendering, 25.4% done
+2014-02-22T16:13:24.824512Z <003>    61 MB info    | rendering, 25.8% done
+2014-02-22T16:13:28.793434Z <008>    61 MB info    | rendering, 26.2% done
+2014-02-22T16:13:32.798198Z <007>    61 MB info    | rendering, 26.6% done
+2014-02-22T16:13:33.231839Z <009>    62 MB info    | rendering, 27.0% done
+2014-02-22T16:13:33.952595Z <002>    62 MB info    | rendering, 27.3% done
+2014-02-22T16:13:36.282381Z <006>    62 MB info    | rendering, 27.7% done
+2014-02-22T16:13:45.617364Z <004>    62 MB info    | rendering, 28.1% done
+2014-02-22T16:13:47.624645Z <005>    63 MB info    | rendering, 28.5% done
+2014-02-22T16:13:48.736538Z <003>    63 MB info    | rendering, 28.9% done
+2014-02-22T16:13:53.067703Z <008>    63 MB info    | rendering, 29.3% done
+
