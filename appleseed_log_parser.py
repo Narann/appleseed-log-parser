@@ -7,6 +7,8 @@ import sys
 from PySide import QtUiTools, QtGui, QtCore
 import functools
 
+#http://thomas-cokelaer.info/tutorials/sphinx/docstring_python.html
+
 ################################################################################
 # Prepare regex
 ################################################################################
@@ -52,6 +54,7 @@ re_opt_frame_settings_crop_window      = re.compile( '\s*crop window\s+\((?P<x_t
 datetime_str_format = '%Y-%m-%dT%H:%M:%S.%fZ'
 
 class ASLogLine( object ) :
+    """Class representing a parsed line of an appleseed log file"""
 
     __slots__ = ( 'line'                  ,  # the whole line string
                   'number'                ,  # the line number
@@ -59,13 +62,16 @@ class ASLogLine( object ) :
                   '_timestamp'            ,  # cached datetime
                   'thread_id'             ,
                   'vm'                    ,
-                  'msg_cat'               ,
+                  'msg_cat'               ,  # debug/info/warning/error
                   'msg_rest'              ,  # Everything after the pipe
                   'msg_content'           ,
                   'frame_setting_trigger' )  # Details of msg_rest
 
-    def __init__( self, line, number ) :
+    def __init__( self, line, number = -1 ) :
+        """Init the class instance
 
+        Raise a ValueError is the given line is not parsable
+        """
         assert isinstance( line  , basestring ), type( line   )
         assert isinstance( number, int        ), type( number )
 
@@ -82,15 +88,15 @@ class ASLogLine( object ) :
         # option triggers
         self.frame_setting_trigger = False
 
-        self._parse()
+        self.__parse()
 
-    def _parse( self ) :
+    def __parse( self ) :
+        """Parse line content and fill the ASLogLine instance"""
 
         # first part of the line (always the same pattern)
         match_grp = re_main.match( self.line )
         if not match_grp :
-            print "Warning, can't parse line {0.number} : {0.line}".format( self )
-            return
+            raise ValueError( "Can't parse line {0.number} : {0.line}".format( self ) )
 
         self._raw_timestamp =      match_grp.group( 'timestamp'  )
         self.thread_id      = int( match_grp.group( 'thread_id'  ) )
@@ -173,7 +179,9 @@ class ASLogLine( object ) :
             self.msg_content[ 'object'  ] = match_grp.group( 'object'  )
             self.msg_content[ 'problem' ] = match_grp.group( 'problem' )
 
-        # triggers
+        #######################################################################
+        # Triggers
+        #######################################################################
         match_grp = re_opt_frame_settings_trigger.match( self.msg_rest )
         if match_grp :
             self.frame_setting_trigger = True
@@ -191,11 +199,27 @@ class ASLogLine( object ) :
                                                           datetime_str_format )
         return self._timestamp
 
-class ASLogParser( object ) :
 
-    def __init__( self, log_file ) :
+class ASLog( object ) :
+    """The main appleseed log class
 
-        self._log_file   = log_file
+    :Example:
+
+    >>> from appleseed.log_parser import ASLog
+    >>> as_log = ASLog('frame.1001.log')
+    >>> list(as_log.opened_texture_files)
+    ['./_textures/coke_can_diff.exr', './_textures/coke_can_diff.exr', ...]
+    >>> as_log.ranges['vm']
+    (10, 108)
+    >>> for line in as_log:
+    ...     print line.msg_content
+    ...
+    {'vertices': 16, 'mesh_path': './_geometry/...
+    """
+
+    def __init__( self, path ) :
+
+        self._path       = path
         self._lines_data = list()
 
         # options
@@ -205,21 +229,20 @@ class ASLogParser( object ) :
         self._ranges                     = dict()
         self._ranges[ 'first_datetime' ] = None
         self._ranges[ 'last_datetime'  ] = None
-        self._ranges[ 'vm_max'         ] = 0
-        self._ranges[ 'vm_max_str_len' ] = 0 # for nice output
+        self._ranges[ 'vm'             ] = ( 9999999, -9999999 )
 
         self._parse()
 
-    '''def __len__( self ) :
+    def __len__( self ) :
         return len( self._lines_data )
 
     def __getitem__( self, index ) :
-        return self._lines_data[index]'''
+        return self._lines_data[ index ]
 
     @property
     def _lines( self ) :
         """Read every lines from the log file."""
-        with open( self._log_file, 'r' ) as log_file :
+        with open( self._path, 'r' ) as log_file :
             for line in log_file :
                 yield line
 
@@ -229,24 +252,31 @@ class ASLogParser( object ) :
 
         for i, line in enumerate( self._lines ) :
 
-            line_data = ASLogLine( line, i )
+            try :
+                line_data = ASLogLine( line, i )
+            except Exception :
+                print "Warning, can't parse line {0} : {1}".format( i , line )
+                continue
 
             if line_data.is_empty :
                 continue
-
-            msg_rest    = line_data.msg_rest
 
             self._lines_data.append( line_data )
 
             ################################################################
             # Options
             ################################################################
+            msg_rest = line_data.msg_rest
+
             if 'frame_settings' in triggereds :
                 ############################################################
                 # Frame settings
                 ############################################################
-                if not 'frame_settings' in self._options :
+                if 'frame_settings' not in self._options :
                     self._options[ 'frame_settings' ] = dict()
+
+                # shortcut
+                d = self._options[ 'frame_settings' ]
 
                 match_grp = re_opt_frame_settings_resolution.match( msg_rest )
                 if match_grp :
@@ -254,7 +284,7 @@ class ASLogParser( object ) :
                     x = int( x.replace( ',', '' ) )
                     y = match_grp.group( 'y_resolution' )
                     y = int( y.replace( ',', '' ) )
-                    self._options[ 'frame_settings' ][ 'resolution' ] = ( x, y )
+                    d[ 'resolution' ] = ( x, y )
 
                 match_grp = re_opt_frame_settings_tile_size.match( msg_rest )
                 if match_grp :
@@ -262,45 +292,39 @@ class ASLogParser( object ) :
                     x = int( x.replace( ',', '' ) )
                     y = match_grp.group( 'y_resolution' )
                     y = int( y.replace( ',', '' ) )
-                    self._options[ 'frame_settings' ][ 'tile_size' ] = ( x, y )
+                    d[ 'tile_size' ] = ( x, y )
 
                 match_grp = re_opt_frame_settings_pixel_format.match( msg_rest )
                 if match_grp :
-                    self._options[ 'frame_settings' ][ 'pixel_format' ] = \
-                                               match_grp.group( 'pixel_format' )
+                    d[ 'pixel_format' ] = match_grp.group( 'pixel_format' )
 
                 match_grp = re_opt_frame_settings_filter.match( msg_rest )
                 if match_grp :
-                    self._options[ 'frame_settings' ][ 'filter' ] = \
-                                                     match_grp.group( 'filter' )
+                    d[ 'filter' ] = match_grp.group( 'filter' )
 
                 match_grp = re_opt_frame_settings_filter_size.match( msg_rest )
                 if match_grp :
-                    self._options[ 'frame_settings' ][ 'filter_size' ] = \
-                                       float( match_grp.group( 'filter_size' ) )
+                    d[ 'filter_size' ] = float( match_grp.group( 'filter_size' ) )
 
                 match_grp = re_opt_frame_settings_color_space.match( msg_rest )
                 if match_grp :
-                    self._options[ 'frame_settings' ][ 'color_space' ] = \
-                                                match_grp.group( 'color_space' )
+                    d[ 'color_space' ] = match_grp.group( 'color_space' )
 
                 match_grp = re_opt_frame_settings_premult_alpha.match( msg_rest )
                 if match_grp :
                     premult_alpha = match_grp.group( 'premult_alpha' )
-                    self._options[ 'frame_settings' ][ 'premult_alpha' ] = \
-                                    True if premult_alpha == 'on' else False
+                    d[ 'premult_alpha' ] = True if premult_alpha == 'on' else False
 
                 match_grp = re_opt_frame_settings_clamping.match( msg_rest )
                 if match_grp :
                     clamping = match_grp.group( 'clamping' )
-                    self._options[ 'frame_settings' ][ 'clamping' ] = \
-                                             True if clamping == 'on' else False
+                    d[ 'clamping' ] = True if clamping == 'on' else False
 
                 match_grp = re_opt_frame_settings_gamma_correction.match( msg_rest )
                 if match_grp :
-                    self._options[ 'frame_settings' ][ 'gamma_correction' ] = \
-                                  float( match_grp.group( 'gamma_correction' ) )
+                    d[ 'gamma_correction' ] = float( match_grp.group( 'gamma_correction' ) )
 
+                # latest line of the option
                 match_grp = re_opt_frame_settings_crop_window.match( msg_rest )
                 if match_grp :
                     x_top_left = match_grp.group( 'x_top_left' )
@@ -311,11 +335,8 @@ class ASLogParser( object ) :
                     x_bottom_right = int( x_bottom_right.replace( ',', '' ) )
                     y_bottom_right = match_grp.group( 'y_bottom_right' )
                     y_bottom_right = int( y_bottom_right.replace( ',', '' ) )
-                    self._options[ 'frame_settings' ][ 'crop_window' ] = \
-                                                          ( x_top_left     ,
-                                                            y_top_left     ,
-                                                            x_bottom_right ,
-                                                            y_bottom_right )
+                    d[ 'crop_window' ] = ( x_top_left     , y_top_left     ,
+                                           x_bottom_right , y_bottom_right )
                     triggereds.remove( 'frame_settings' ) # close the option
 
             if line_data.frame_setting_trigger :
@@ -324,10 +345,6 @@ class ASLogParser( object ) :
             ################################################################
             # Update graph ranges if needed
             ################################################################
-            vm_str_len = len( str( line_data.vm ) )
-            if vm_str_len > self._ranges[ 'vm_max_str_len' ] :
-                self._ranges[ 'vm_max_str_len' ] = vm_str_len
-
             if self._ranges[ 'first_datetime' ] is None :
                 self._ranges[ 'first_datetime' ] = line_data.timestamp
 
@@ -335,8 +352,11 @@ class ASLogParser( object ) :
                self._ranges[ 'last_datetime' ] < line_data.timestamp    :
                 self._ranges[ 'last_datetime' ] = line_data.timestamp
 
-            if line_data.vm > self._ranges[ 'vm_max' ] :
-                self._ranges[ 'vm_max' ] = line_data.vm
+            if line_data.vm < self._ranges[ 'vm' ][0] :
+                self._ranges[ 'vm' ][0] = line_data.vm
+
+            if line_data.vm > self._ranges[ 'vm' ][1] :
+                self._ranges[ 'vm' ][1] = line_data.vm
 
     def export_to_csv( self, path ) :
         """Export the current parsed log to csv at the given path."""
@@ -407,7 +427,7 @@ class ASLogParser( object ) :
         raw_str += 'set xlabel "Time"\n'
         #raw_str += 'set ylabel "Angle"\n'
         #raw_str += 'set xrange [%s:%s]\n' % ( -margin_second, last_second )
-        raw_str += 'set title "%s"\n' % os.path.basename( self._log_file )
+        raw_str += 'set title "%s"\n' % os.path.basename( 'toto' ) # self._path TODO this method should be outside the class
         raw_str += 'replot\n'
         raw_str += 'pause -1  "Hit return to continue"\n'
 
@@ -603,7 +623,8 @@ class ASLogParserUI( QtGui.QMainWindow, appleseed_log_parser_ui.Ui_MainWindow ) 
         current_log_data = self._log_datas[ self._current_log ]
 
         # get ranges we need
-        vm_max_str_len = current_log_data.ranges[ 'vm_max_str_len' ]
+        vm_min, vm_max = current_log_data.ranges[ 'vm' ]
+        vm_max_str_len = len(str(vm_max))
 
         #levels   = list( self._log_levels )
         #prefixes = list( self._log_prefixes )
